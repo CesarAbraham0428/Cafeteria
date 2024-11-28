@@ -7,7 +7,7 @@ package modelo;
 
 /**
  *
- * @author lopez
+ * @author Cesar Abraham Lopez Aguilar GDS0643
  */
 public class Orden {
     private int num;
@@ -46,6 +46,4 @@ public class Orden {
     public void setPedido(String pedido) {
         this.pedido = pedido;
     }
-    
-    
 }

@@ -7,7 +7,7 @@ package modelo;
 
 /**
  *
- * @author lopez
+ * @author Cesar Abraham Lopez Aguilar GDS0643
  */
 public class ColaC {
 
@@ -70,5 +70,4 @@ public class ColaC {
     public void setN(int n) {
         this.n = n;
     }
-
 }

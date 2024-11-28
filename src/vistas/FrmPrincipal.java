@@ -51,7 +51,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        txtOrden = new javax.swing.JTextField();
         txtMesa = new javax.swing.JTextField();
         btnOrdenar = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
@@ -81,7 +80,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         spinPlatillo13 = new javax.swing.JSpinner();
         chkbPlatillo14 = new javax.swing.JCheckBox();
         spinPlatillo14 = new javax.swing.JSpinner();
-        btnAgregarBebida = new javax.swing.JButton();
+        btnAgregarPlatillo2 = new javax.swing.JButton();
         chkbPlatillo15 = new javax.swing.JCheckBox();
         spinPlatillo15 = new javax.swing.JSpinner();
         chkbPlatillo16 = new javax.swing.JCheckBox();
@@ -103,7 +102,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         spinPlatillo23 = new javax.swing.JSpinner();
         chkbPlatillo24 = new javax.swing.JCheckBox();
         spinPlatillo24 = new javax.swing.JSpinner();
-        btnAgregarPostre = new javax.swing.JButton();
+        btnAgregarPlatillo3 = new javax.swing.JButton();
         chkbPlatillo25 = new javax.swing.JCheckBox();
         spinPlatillo25 = new javax.swing.JSpinner();
         chkbPlatillo26 = new javax.swing.JCheckBox();
@@ -125,7 +124,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         spinPlatillo33 = new javax.swing.JSpinner();
         chkbPlatillo34 = new javax.swing.JCheckBox();
         spinPlatillo34 = new javax.swing.JSpinner();
-        btnAgregarSnack = new javax.swing.JButton();
+        btnAgregarPlatillo4 = new javax.swing.JButton();
         chkbPlatillo35 = new javax.swing.JCheckBox();
         spinPlatillo35 = new javax.swing.JSpinner();
         chkbPlatillo36 = new javax.swing.JCheckBox();
@@ -142,6 +141,8 @@ public class FrmPrincipal extends javax.swing.JFrame {
         spinPlatillo31 = new javax.swing.JSpinner();
         chkbPlatillo32 = new javax.swing.JCheckBox();
         spinPlatillo32 = new javax.swing.JSpinner();
+        txtOrden = new javax.swing.JTextField();
+        btnPagar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -202,10 +203,12 @@ public class FrmPrincipal extends javax.swing.JFrame {
         txtFinal.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         txtFinal.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtFinal.setText("0");
+        txtFinal.setEnabled(false);
 
         txtFrente.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         txtFrente.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtFrente.setText("0");
+        txtFrente.setEnabled(false);
 
         btnAtenderOrden.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btnAtenderOrden.setText("Atender Orden");
@@ -221,22 +224,22 @@ public class FrmPrincipal extends javax.swing.JFrame {
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 721, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGap(126, 126, 126)
                         .addComponent(jLabel4)
                         .addGap(31, 31, 31)
                         .addComponent(txtFrente, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(jLabel5)
                         .addGap(18, 18, 18)
-                        .addComponent(txtFinal, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(310, 310, 310))
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 721, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(txtFinal, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(18, 18, 18)
                 .addComponent(btnAtenderOrden)
-                .addGap(21, 21, 21)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnSalir, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnCreditos))
+                .addGap(32, 32, 32)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(btnCreditos)
+                    .addComponent(btnSalir, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
@@ -249,7 +252,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
                     .addComponent(jLabel5)
                     .addComponent(txtFinal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtFrente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(16, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -257,7 +260,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
                         .addComponent(btnCreditos)
                         .addGap(18, 18, 18)
                         .addComponent(btnSalir)
-                        .addGap(25, 25, 25))
+                        .addGap(20, 20, 20))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                         .addComponent(btnAtenderOrden)
                         .addGap(43, 43, 43))))
@@ -272,9 +275,12 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel3.setText("Mesa");
 
-        txtOrden.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-
         txtMesa.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        txtMesa.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtMesaActionPerformed(evt);
+            }
+        });
 
         btnOrdenar.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btnOrdenar.setText("Ordenar");
@@ -288,13 +294,13 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Platillos", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 24))); // NOI18N
 
         chkbPlatillo3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        chkbPlatillo3.setText("Sándwich ");
+        chkbPlatillo3.setText("Sándwich");
 
         spinPlatillo3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         spinPlatillo3.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
         chkbPlatillo4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        chkbPlatillo4.setText("Croissant");
+        chkbPlatillo4.setText("Croassant");
 
         spinPlatillo4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         spinPlatillo4.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
@@ -308,13 +314,18 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
 
         chkbPlatillo5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        chkbPlatillo5.setText("Bagel ");
+        chkbPlatillo5.setText("Bagel $10");
 
         spinPlatillo5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         spinPlatillo5.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
         chkbPlatillo6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        chkbPlatillo6.setText("Empanadas ");
+        chkbPlatillo6.setText("Empanadas $10");
+        chkbPlatillo6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                chkbPlatillo6ActionPerformed(evt);
+            }
+        });
 
         spinPlatillo6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         spinPlatillo6.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
@@ -344,7 +355,12 @@ public class FrmPrincipal extends javax.swing.JFrame {
         spinPlatillo8.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
         chkbPlatillo1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        chkbPlatillo1.setText("Enchiladas");
+        chkbPlatillo1.setText("$35 Enchiladas");
+        chkbPlatillo1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                chkbPlatillo1ActionPerformed(evt);
+            }
+        });
 
         spinPlatillo1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         spinPlatillo1.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
@@ -394,19 +410,18 @@ public class FrmPrincipal extends javax.swing.JFrame {
                                     .addComponent(chkbPlatillo8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(chkbPlatillo7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(chkbPlatillo6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addGap(15, 15, 15)
                                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel5Layout.createSequentialGroup()
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(spinPlatillo6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(spinPlatillo5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                    .addGroup(jPanel5Layout.createSequentialGroup()
-                                        .addGap(15, 15, 15)
-                                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(jPanel5Layout.createSequentialGroup()
-                                                .addComponent(spinPlatillo7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(0, 0, Short.MAX_VALUE))
-                                            .addComponent(spinPlatillo8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
+                                        .addComponent(spinPlatillo7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(0, 0, Short.MAX_VALUE))
+                                    .addComponent(spinPlatillo8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(jPanel5Layout.createSequentialGroup()
+                                .addComponent(chkbPlatillo5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGap(15, 15, 15)
+                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(spinPlatillo6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(spinPlatillo5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -417,10 +432,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
                             .addComponent(spinPlatillo4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(spinPlatillo3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap())
-            .addGroup(jPanel5Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(chkbPlatillo5, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -483,11 +494,11 @@ public class FrmPrincipal extends javax.swing.JFrame {
         spinPlatillo14.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         spinPlatillo14.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        btnAgregarBebida.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnAgregarBebida.setText("Agregar");
-        btnAgregarBebida.addActionListener(new java.awt.event.ActionListener() {
+        btnAgregarPlatillo2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnAgregarPlatillo2.setText("Agregar");
+        btnAgregarPlatillo2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnAgregarBebidaActionPerformed(evt);
+                btnAgregarPlatillo2ActionPerformed(evt);
             }
         });
 
@@ -557,7 +568,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addGap(45, 45, 45)
-                        .addComponent(btnAgregarBebida))
+                        .addComponent(btnAgregarPlatillo2))
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -654,7 +665,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
                     .addComponent(spinPlatillo20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(chkbPlatillo20))
                 .addGap(10, 10, 10)
-                .addComponent(btnAgregarBebida))
+                .addComponent(btnAgregarPlatillo2))
         );
 
         jPanel8.setBackground(new java.awt.Color(204, 255, 204));
@@ -672,11 +683,11 @@ public class FrmPrincipal extends javax.swing.JFrame {
         spinPlatillo24.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         spinPlatillo24.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        btnAgregarPostre.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnAgregarPostre.setText("Agregar");
-        btnAgregarPostre.addActionListener(new java.awt.event.ActionListener() {
+        btnAgregarPlatillo3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnAgregarPlatillo3.setText("Agregar");
+        btnAgregarPlatillo3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnAgregarPostreActionPerformed(evt);
+                btnAgregarPlatillo3ActionPerformed(evt);
             }
         });
 
@@ -744,7 +755,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addGap(45, 45, 45)
-                .addComponent(btnAgregarPostre))
+                .addComponent(btnAgregarPlatillo3))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -818,7 +829,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
                     .addComponent(spinPlatillo30, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(chkbPlatillo30))
                 .addGap(10, 10, 10)
-                .addComponent(btnAgregarPostre))
+                .addComponent(btnAgregarPlatillo3))
         );
 
         jPanel9.setBackground(new java.awt.Color(204, 255, 204));
@@ -836,11 +847,11 @@ public class FrmPrincipal extends javax.swing.JFrame {
         spinPlatillo34.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         spinPlatillo34.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        btnAgregarSnack.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnAgregarSnack.setText("Agregar");
-        btnAgregarSnack.addActionListener(new java.awt.event.ActionListener() {
+        btnAgregarPlatillo4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnAgregarPlatillo4.setText("Agregar");
+        btnAgregarPlatillo4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnAgregarSnackActionPerformed(evt);
+                btnAgregarPlatillo4ActionPerformed(evt);
             }
         });
 
@@ -905,7 +916,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel9Layout.createSequentialGroup()
                         .addGap(45, 45, 45)
-                        .addComponent(btnAgregarSnack))
+                        .addComponent(btnAgregarPlatillo4))
                     .addGroup(jPanel9Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -999,14 +1010,28 @@ public class FrmPrincipal extends javax.swing.JFrame {
                     .addComponent(spinPlatillo40, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(chkbPlatillo40))
                 .addGap(10, 10, 10)
-                .addComponent(btnAgregarSnack))
+                .addComponent(btnAgregarPlatillo4))
         );
+
+        txtOrden.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        txtOrden.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtOrdenActionPerformed(evt);
+            }
+        });
+
+        btnPagar.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnPagar.setText("Pagar");
+        btnPagar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnPagarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1023,39 +1048,34 @@ public class FrmPrincipal extends javax.swing.JFrame {
                         .addGap(239, 239, 239)))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(34, 34, 34)
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(20, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(18, 18, 18)
                                 .addComponent(btnOrdenar)
-                                .addGap(48, 48, 48))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel3)
-                                    .addComponent(jLabel2))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(txtOrden)
-                                    .addComponent(txtMesa, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(47, 47, 47))))))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnPagar))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(34, 34, 34)
+                                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel3)
+                            .addComponent(jLabel2))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(txtMesa, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtOrden, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(60, 60, 60))))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel2)
@@ -1066,9 +1086,20 @@ public class FrmPrincipal extends javax.swing.JFrame {
                             .addComponent(txtMesa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
                         .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(btnOrdenar)
-                        .addGap(6, 6, 6)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(btnOrdenar)
+                            .addComponent(btnPagar))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -1076,7 +1107,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1087,21 +1118,45 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnOrdenarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOrdenarActionPerformed
-        Orden nueva;
-        int num;
-        int mesa;
-        String pedido;
+        try {
+            // Validar si los campos están vacíos
+            if (txtOrden.getText().isEmpty() || txtMesa.getText().isEmpty() || txtPedido.getText().isEmpty()) {
+                JOptionPane.showMessageDialog(this, "Por favor, complete todos los campos.");
+                return;
+            }
 
-        num = Integer.parseInt(txtOrden.getText());
-        mesa = Integer.parseInt(txtMesa.getText());
-        pedido = txtPedido.getText();
-        nueva = new Orden(num, mesa, pedido);
-        pos = ordenes.getFin();
-        ordenes.insertar(nueva);
-        mostrarOrden(pos, nueva);
-        txtFinal.setText("" + ordenes.getFin());
-        txtFrente.setText("" + ordenes.getFrente());
+            // Validar valores numéricos positivos
+            int num = Integer.parseInt(txtOrden.getText());
+            int mesa = Integer.parseInt(txtMesa.getText());
+            if (num <= 0 || mesa <= 0) {
+                JOptionPane.showMessageDialog(this, "El número de orden y mesa deben ser mayores que 0.");
+                return;
+            }
 
+            // Validar si la cola está llena
+            if (ordenes.estaLlena()) {
+                JOptionPane.showMessageDialog(this, "La cola está llena. No se pueden agregar más órdenes.", "Error", JOptionPane.ERROR_MESSAGE);
+                return;
+            }
+            Orden nueva;
+            String pedido;
+
+            num = Integer.parseInt(txtOrden.getText());
+            mesa = Integer.parseInt(txtMesa.getText());
+            pedido = txtPedido.getText();
+            nueva = new Orden(num, mesa, pedido);
+            pos = ordenes.getFin();
+            ordenes.insertar(nueva);
+            mostrarOrden(pos, nueva);
+            txtFinal.setText("" + ordenes.getFin());
+            txtFrente.setText("" + ordenes.getFrente());
+            txtOrden.setText("");
+            txtMesa.setText("");
+            // Limpiar el campo txtPedido
+            txtPedido.setText("");
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(this, "Por favor, ingrese valores válidos en los campos numéricos.");
+        }
     }//GEN-LAST:event_btnOrdenarActionPerformed
 
     private void mostrarOrden(int pos, Orden nueva) {
@@ -1116,38 +1171,64 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
     private void btnAgregarPlatilloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarPlatilloActionPerformed
 
-        String platillosSeleccionados = "";
+        // Variable para verificar si al menos un platillo cumple las condiciones
+        boolean platilloAgregado = false;
 
-        if (chkbPlatillo1.isSelected()) {
+        // Validación y construcción de la lista de platillos seleccionados
+        if (chkbPlatillo1.isSelected() && (int) spinPlatillo1.getValue() > 0) {
             txtPedido.append(spinPlatillo1.getValue().toString() + " " + chkbPlatillo1.getText() + "\n");
+            platilloAgregado = true; // Marca que se agregó un platillo válido
         }
-        if (chkbPlatillo2.isSelected()) {
+        if (chkbPlatillo2.isSelected() && (int) spinPlatillo2.getValue() > 0) {
             txtPedido.append(spinPlatillo2.getValue().toString() + " " + chkbPlatillo2.getText() + "\n");
+            platilloAgregado = true;
         }
-        if (chkbPlatillo3.isSelected()) {
+        if (chkbPlatillo3.isSelected() && (int) spinPlatillo3.getValue() > 0) {
             txtPedido.append(spinPlatillo3.getValue().toString() + " " + chkbPlatillo3.getText() + "\n");
+            platilloAgregado = true;
         }
-        if (chkbPlatillo4.isSelected()) {
+        if (chkbPlatillo4.isSelected() && (int) spinPlatillo4.getValue() > 0) {
             txtPedido.append(spinPlatillo4.getValue().toString() + " " + chkbPlatillo4.getText() + "\n");
+            platilloAgregado = true;
         }
-        if (chkbPlatillo5.isSelected()) {
+        if (chkbPlatillo5.isSelected() && (int) spinPlatillo5.getValue() > 0) {
             txtPedido.append(spinPlatillo5.getValue().toString() + " " + chkbPlatillo5.getText() + "\n");
+            platilloAgregado = true;
         }
-        if (chkbPlatillo6.isSelected()) {
+        if (chkbPlatillo6.isSelected() && (int) spinPlatillo6.getValue() > 0) {
             txtPedido.append(spinPlatillo6.getValue().toString() + " " + chkbPlatillo6.getText() + "\n");
+            platilloAgregado = true;
         }
-        if (chkbPlatillo7.isSelected()) {
+        if (chkbPlatillo7.isSelected() && (int) spinPlatillo7.getValue() > 0) {
             txtPedido.append(spinPlatillo7.getValue().toString() + " " + chkbPlatillo7.getText() + "\n");
+            platilloAgregado = true;
         }
-        if (chkbPlatillo8.isSelected()) {
+        if (chkbPlatillo8.isSelected() && (int) spinPlatillo8.getValue() > 0) {
             txtPedido.append(spinPlatillo8.getValue().toString() + " " + chkbPlatillo8.getText() + "\n");
+            platilloAgregado = true;
         }
-        if (chkbPlatillo9.isSelected()) {
+        if (chkbPlatillo9.isSelected() && (int) spinPlatillo9.getValue() > 0) {
             txtPedido.append(spinPlatillo9.getValue().toString() + " " + chkbPlatillo9.getText() + "\n");
+            platilloAgregado = true;
         }
-        if (chkbPlatillo10.isSelected()) {
+        if (chkbPlatillo10.isSelected() && (int) spinPlatillo10.getValue() > 0) {
             txtPedido.append(spinPlatillo10.getValue().toString() + " " + chkbPlatillo10.getText() + "\n");
+            platilloAgregado = true;
         }
+
+        // Validar si ningún platillo fue agregado
+        if (!platilloAgregado) {
+            JOptionPane.showMessageDialog(this, "Debe seleccionar al menos un platillo con cantidad mayor a 0.", "Error", JOptionPane.ERROR_MESSAGE);
+        }
+    }//GEN-LAST:event_btnAgregarPlatilloActionPerformed
+
+    private void chkbPlatillo2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkbPlatillo2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_chkbPlatillo2ActionPerformed
+
+    private void btnAgregarPlatillo2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarPlatillo2ActionPerformed
+        // TODO add your handling code here:
+        String platillosSeleccionados = "";
         if (chkbPlatillo11.isSelected()) {
             txtPedido.append(spinPlatillo11.getValue().toString() + " " + chkbPlatillo11.getText() + "\n");
         }
@@ -1178,6 +1259,18 @@ public class FrmPrincipal extends javax.swing.JFrame {
         if (chkbPlatillo20.isSelected()) {
             txtPedido.append(spinPlatillo20.getValue().toString() + " " + chkbPlatillo20.getText() + "\n");
         }
+        // Mostrar en el área de texto (panel izquierdo)
+        txtPedido.append(platillosSeleccionados);
+    }//GEN-LAST:event_btnAgregarPlatillo2ActionPerformed
+
+    private void chkbPlatillo12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkbPlatillo12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_chkbPlatillo12ActionPerformed
+
+    private void btnAgregarPlatillo3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarPlatillo3ActionPerformed
+        // TODO add your handling code here:
+        String platillosSeleccionados = "";
+
         if (chkbPlatillo21.isSelected()) {
             txtPedido.append(spinPlatillo21.getValue().toString() + " " + chkbPlatillo21.getText() + "\n");
         }
@@ -1208,6 +1301,17 @@ public class FrmPrincipal extends javax.swing.JFrame {
         if (chkbPlatillo30.isSelected()) {
             txtPedido.append(spinPlatillo30.getValue().toString() + " " + chkbPlatillo30.getText() + "\n");
         }
+        // Mostrar en el área de texto (panel izquierdo)
+        txtPedido.append(platillosSeleccionados);
+    }//GEN-LAST:event_btnAgregarPlatillo3ActionPerformed
+
+    private void chkbPlatillo22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkbPlatillo22ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_chkbPlatillo22ActionPerformed
+
+    private void btnAgregarPlatillo4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarPlatillo4ActionPerformed
+        // TODO add your handling code here:
+        String platillosSeleccionados = "";
         if (chkbPlatillo31.isSelected()) {
             txtPedido.append(spinPlatillo31.getValue().toString() + " " + chkbPlatillo31.getText() + "\n");
         }
@@ -1238,34 +1342,9 @@ public class FrmPrincipal extends javax.swing.JFrame {
         if (chkbPlatillo40.isSelected()) {
             txtPedido.append(spinPlatillo40.getValue().toString() + " " + chkbPlatillo40.getText() + "\n");
         }
-
         // Mostrar en el área de texto (panel izquierdo)
         txtPedido.append(platillosSeleccionados);
-    }//GEN-LAST:event_btnAgregarPlatilloActionPerformed
-
-    private void chkbPlatillo2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkbPlatillo2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_chkbPlatillo2ActionPerformed
-
-    private void btnAgregarBebidaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarBebidaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnAgregarBebidaActionPerformed
-
-    private void chkbPlatillo12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkbPlatillo12ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_chkbPlatillo12ActionPerformed
-
-    private void btnAgregarPostreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarPostreActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnAgregarPostreActionPerformed
-
-    private void chkbPlatillo22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkbPlatillo22ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_chkbPlatillo22ActionPerformed
-
-    private void btnAgregarSnackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarSnackActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnAgregarSnackActionPerformed
+    }//GEN-LAST:event_btnAgregarPlatillo4ActionPerformed
 
     private void chkbPlatillo32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkbPlatillo32ActionPerformed
         // TODO add your handling code here:
@@ -1277,19 +1356,41 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
     private void btnAtenderOrdenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAtenderOrdenActionPerformed
 
+        if (ordenes.estaVacia()) {
+            JOptionPane.showMessageDialog(this, "La cola está vacía. No hay órdenes para atender.", "Error", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
         Orden orden;
         pos = ordenes.getFrente();
         orden = ordenes.eliminar();
         limpiarOrden(pos);
         txtFrente.setText("" + ordenes.getFrente());
-        txtOrden.setText("" + orden.getNum());
-        txtMesa.setText("" + orden.getMesa());
         txtPedido.setText(orden.getPedido());
     }//GEN-LAST:event_btnAtenderOrdenActionPerformed
 
     private void chkbPlatillo11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkbPlatillo11ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_chkbPlatillo11ActionPerformed
+
+    private void chkbPlatillo1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkbPlatillo1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_chkbPlatillo1ActionPerformed
+
+    private void chkbPlatillo6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkbPlatillo6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_chkbPlatillo6ActionPerformed
+
+    private void txtMesaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtMesaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtMesaActionPerformed
+
+    private void txtOrdenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtOrdenActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtOrdenActionPerformed
+
+    private void btnPagarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPagarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnPagarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1327,13 +1428,14 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnAgregarBebida;
     private javax.swing.JButton btnAgregarPlatillo;
-    private javax.swing.JButton btnAgregarPostre;
-    private javax.swing.JButton btnAgregarSnack;
+    private javax.swing.JButton btnAgregarPlatillo2;
+    private javax.swing.JButton btnAgregarPlatillo3;
+    private javax.swing.JButton btnAgregarPlatillo4;
     private javax.swing.JButton btnAtenderOrden;
     private javax.swing.JButton btnCreditos;
     private javax.swing.JButton btnOrdenar;
+    private javax.swing.JButton btnPagar;
     private javax.swing.JButton btnSalir;
     private javax.swing.JCheckBox chkbPlatillo1;
     private javax.swing.JCheckBox chkbPlatillo10;
