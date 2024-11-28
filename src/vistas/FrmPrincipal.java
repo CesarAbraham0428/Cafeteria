@@ -6,8 +6,8 @@
 package vistas;
 
 import javax.swing.JOptionPane;
-import javax.swing.table.DefaultTableModel;
 import modelo.ColaC;
+import modelo.Orden;
 
 /**
  *
@@ -15,19 +15,14 @@ import modelo.ColaC;
  */
 public class FrmPrincipal extends javax.swing.JFrame {
 
-    private ColaC cola; // Instancia de la cola para gestionar pedidos
-    // Inicializar modelo de tabla en el constructor
-    private DefaultTableModel modeloTablaCola;
+    ColaC ordenes = new ColaC();
+    int pos = 0;
 
     /**
      * Creates new form FrmPrincipal
      */
     public FrmPrincipal() {
-        initComponents();
-        cola = new ColaC(); // Inicializar la cola
-        modeloTablaCola = new DefaultTableModel();
-        modeloTablaCola.addColumn("Pedidos"); // Agregar columna
-        txtCola.setModel(modeloTablaCola); // Asignar modelo al JTable
+        initComponents(); 
     }
 
     /**
@@ -42,10 +37,10 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        txtPedidos = new javax.swing.JTextArea();
+        txtPedido = new javax.swing.JTextArea();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
-        txtCola = new javax.swing.JTable();
+        tblOrdenes = new javax.swing.JTable();
         btnCreditos = new javax.swing.JButton();
         btnSalir = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
@@ -77,10 +72,10 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jCheckBox54 = new javax.swing.JCheckBox();
         SpinnerSopa = new javax.swing.JSpinner();
         SpinnerPizza = new javax.swing.JSpinner();
-        chkEnchiladas = new javax.swing.JCheckBox();
-        spinEnchiladas = new javax.swing.JSpinner();
-        chkEnsalada = new javax.swing.JCheckBox();
-        spinEnsalada = new javax.swing.JSpinner();
+        chkbPlatillo1 = new javax.swing.JCheckBox();
+        spinPlatillo1 = new javax.swing.JSpinner();
+        chkbPlatillo2 = new javax.swing.JCheckBox();
+        spinPlatillo2 = new javax.swing.JSpinner();
         jPanel7 = new javax.swing.JPanel();
         jCheckBox7 = new javax.swing.JCheckBox();
         SpinnerJugo = new javax.swing.JSpinner();
@@ -155,9 +150,9 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(255, 204, 153));
 
-        txtPedidos.setColumns(20);
-        txtPedidos.setRows(5);
-        jScrollPane1.setViewportView(txtPedidos);
+        txtPedido.setColumns(20);
+        txtPedido.setRows(5);
+        jScrollPane1.setViewportView(txtPedido);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -172,8 +167,8 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 204));
 
-        txtCola.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        txtCola.setModel(new javax.swing.table.DefaultTableModel(
+        tblOrdenes.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        tblOrdenes.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null, null, null, null}
             },
@@ -189,8 +184,8 @@ public class FrmPrincipal extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
-        txtCola.setRowHeight(50);
-        jScrollPane2.setViewportView(txtCola);
+        tblOrdenes.setRowHeight(50);
+        jScrollPane2.setViewportView(tblOrdenes);
 
         btnCreditos.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btnCreditos.setText("Creditos");
@@ -348,22 +343,22 @@ public class FrmPrincipal extends javax.swing.JFrame {
         SpinnerPizza.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         SpinnerPizza.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        chkEnchiladas.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        chkEnchiladas.setText("Enchiladas");
+        chkbPlatillo1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo1.setText("Enchiladas");
 
-        spinEnchiladas.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        spinEnchiladas.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo1.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        chkEnsalada.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        chkEnsalada.setText("Ensalada");
-        chkEnsalada.addActionListener(new java.awt.event.ActionListener() {
+        chkbPlatillo2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo2.setText("Ensalada");
+        chkbPlatillo2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                chkEnsaladaActionPerformed(evt);
+                chkbPlatillo2ActionPerformed(evt);
             }
         });
 
-        spinEnsalada.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        spinEnsalada.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo2.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -377,12 +372,12 @@ public class FrmPrincipal extends javax.swing.JFrame {
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(chkEnsalada, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(chkEnchiladas, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(chkbPlatillo2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(chkbPlatillo1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(15, 15, 15)
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(spinEnchiladas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(spinEnsalada, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(spinPlatillo1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(spinPlatillo2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -431,12 +426,12 @@ public class FrmPrincipal extends javax.swing.JFrame {
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(spinEnchiladas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(chkEnchiladas))
+                    .addComponent(spinPlatillo1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo1))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(spinEnsalada, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(chkEnsalada))
+                    .addComponent(spinPlatillo2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo2))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(chk3)
@@ -1028,17 +1023,19 @@ public class FrmPrincipal extends javax.swing.JFrame {
                         .addContainerGap(20, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(btnOrdenar)
-                        .addGap(48, 48, 48))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel3)
-                            .addComponent(jLabel2))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(txtOrden)
-                            .addComponent(txtMesa, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(47, 47, 47))))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addComponent(btnOrdenar)
+                                .addGap(48, 48, 48))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jLabel3)
+                                    .addComponent(jLabel2))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(txtOrden)
+                                    .addComponent(txtMesa, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(47, 47, 47))))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1085,50 +1082,47 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnOrdenarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOrdenarActionPerformed
-        // Validar que haya productos en el área de pedidos
-        if (txtPedidos.getText().isEmpty() || txtOrden.getText().isEmpty() || txtMesa.getText().isEmpty()) {
-            JOptionPane.showMessageDialog(this, "¡Completa los datos de orden, mesa y productos!");
-            return;
-        }
+        Orden nueva;
+        int num;
+        int mesa;
+        String pedido;
 
-        // Crear pedido
-        String pedido = "Orden #" + txtOrden.getText() + " | Mesa #" + txtMesa.getText() + "\n" + txtPedidos.getText();
-
-        // Insertar en la cola
-        cola.insertar(pedido);
-
-        // Actualizar panel inferior
-        actualizarCola();
-
-        // Limpiar área de pedidos y campos
-        txtPedidos.setText("");
-        txtOrden.setText("");
-        txtMesa.setText("");
-
+        num = Integer.parseInt(txtOrden.getText());
+        mesa = Integer.parseInt(txtMesa.getText());
+        pedido = txtPedido.getText();
+        nueva = new Orden(num, mesa, pedido);
+        pos = ordenes.getFin();
+        ordenes.insertar(nueva);
+        mostrarOrden(pos, nueva);
+        txtFinal.setText(""+ordenes.getFin());
+        txtFrente.setText(""+ordenes.getFrente());
+        
     }//GEN-LAST:event_btnOrdenarActionPerformed
+
+    private void mostrarOrden(int pos, Orden nueva) {
+        String clave;
+        clave = nueva.getNum()+"-"+nueva.getMesa();
+        tblOrdenes.setValueAt(clave,0, pos);
+    }
+    
+    private void limpiarOrden(int pos){
+        tblOrdenes.setValueAt("", 0, pos);
+    }
 
     private void btnAgregarPlatilloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarPlatilloActionPerformed
 
         String platillosSeleccionados = "";
-        int cantidad = 0;
 
-        // Ejemplo para "Enchiladas" (hazlo dinámico para todos los checkboxes)
-        if (chkEnchiladas.isSelected()) {
-            cantidad = Integer.parseInt(spinEnchiladas.getValue().toString());
-            platillosSeleccionados += "Enchiladas x" + cantidad + "\n";
+        if (chkbPlatillo1.isSelected()) {
+            txtPedido.append(spinPlatillo1.getValue().toString() + " " + chkbPlatillo1.getText() + "\n");
         }
-        if (chkEnsalada.isSelected()) {
-            cantidad = Integer.parseInt(spinEnsalada.getValue().toString());
-            platillosSeleccionados += "Ensalada x" + cantidad + "\n";
-        }
-
         // Mostrar en el área de texto (panel izquierdo)
-        txtPedidos.append(platillosSeleccionados);
+        txtPedido.append(platillosSeleccionados);
     }//GEN-LAST:event_btnAgregarPlatilloActionPerformed
 
-    private void chkEnsaladaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkEnsaladaActionPerformed
+    private void chkbPlatillo2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkbPlatillo2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_chkEnsaladaActionPerformed
+    }//GEN-LAST:event_chkbPlatillo2ActionPerformed
 
     private void btnAgregarBebidaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarBebidaActionPerformed
         // TODO add your handling code here:
@@ -1160,19 +1154,14 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
     private void btnAtenderOrdenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAtenderOrdenActionPerformed
 
-        if (cola.estaVacia()) {
-            JOptionPane.showMessageDialog(this, "¡No hay pedidos por atender!");
-            return;
-        }
-
-        // Eliminar del frente de la cola
-        Object atendido = cola.eliminar();
-
-        // Mostrar pedido atendido (opcional)
-        JOptionPane.showMessageDialog(this, "Pedido atendido:\n" + atendido);
-
-        // Actualizar panel inferior
-        actualizarCola();
+        Orden orden;
+        pos = ordenes.getFrente();
+        orden = ordenes.eliminar();
+        limpiarOrden(pos);
+        txtFrente.setText(""+ordenes.getFrente());
+        txtOrden.setText(""+orden.getNum());
+        txtMesa.setText(""+orden.getMesa());
+        txtPedido.setText(orden.getPedido());
     }//GEN-LAST:event_btnAtenderOrdenActionPerformed
 
     /**
@@ -1259,8 +1248,8 @@ public class FrmPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton btnSalir;
     private javax.swing.JCheckBox chk3;
     private javax.swing.JCheckBox chk4;
-    private javax.swing.JCheckBox chkEnchiladas;
-    private javax.swing.JCheckBox chkEnsalada;
+    private javax.swing.JCheckBox chkbPlatillo1;
+    private javax.swing.JCheckBox chkbPlatillo2;
     private javax.swing.JCheckBox jCheckBox10;
     private javax.swing.JCheckBox jCheckBox11;
     private javax.swing.JCheckBox jCheckBox12;
@@ -1311,30 +1300,15 @@ public class FrmPrincipal extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JSpinner spinEnchiladas;
-    private javax.swing.JSpinner spinEnsalada;
-    private javax.swing.JTable txtCola;
+    private javax.swing.JSpinner spinPlatillo1;
+    private javax.swing.JSpinner spinPlatillo2;
+    private javax.swing.JTable tblOrdenes;
     private javax.swing.JTextField txtFinal;
     private javax.swing.JTextField txtFrente;
     private javax.swing.JTextField txtMesa;
     private javax.swing.JTextField txtOrden;
-    private javax.swing.JTextArea txtPedidos;
+    private javax.swing.JTextArea txtPedido;
     // End of variables declaration//GEN-END:variables
 
-    private void actualizarCola() {
-        // Limpia las filas del modelo de la tabla
-        modeloTablaCola.setRowCount(0);
-
-        // Agregar los elementos de la cola al JTable
-        int i = cola.getFrente();
-        for (int contador = 0; contador < cola.getNumeroElementos(); contador++) {
-            modeloTablaCola.addRow(new Object[]{cola.getDatos()[i]});
-            i = (i + 1) % cola.getDatos().length; // Avanzar de forma circular
-        }
-
-        // Actualizar campos de frente y final
-        txtFrente.setText(String.valueOf(cola.getFrente()));
-        txtFinal.setText(String.valueOf(cola.getFin()));
-    }
 
 }

@@ -9,82 +9,59 @@ package modelo;
  *
  * @author lopez
  */
-public class ColaC implements ICola {
+public class ColaC {
 
-    private Object[] datos;
+    private Orden[] datos;
     private int frente;
     private int fin;
     private int n;//Contador
 
     public ColaC() {
-        datos = new Object[10];
+        datos = new Orden[10];
         frente = 0;
         fin = 0;
         n = 0;
     }
 
     public ColaC(int tam) {
-        datos = new Object[tam];
+        datos = new Orden[tam];
         frente = 0;
         fin = 0;
         n = 0;
     }
 
-    @Override
-    public void insertar(Object item) {
-        datos[fin++] = item;
+    public void insertar(Orden nueva){
+        datos[fin++] = nueva;
         if (fin == datos.length) {
            fin=0;
         }
         n++;
     }
-
-    @Override
-    public Object eliminar() {
-        Object salida = datos[frente++];
+    
+    public Orden eliminar(){
+        Orden salida = datos[frente++];
          if (frente == datos.length) {
             frente=0;
         }
         n--;
         return salida;
     }
-
-    @Override
-    public boolean estaLlena() {
-        return (n==datos.length);
+    
+    public boolean estaLlena(){
+         return (n==datos.length);
     }
-
-    @Override
-    public boolean estaVacia() {
-        return (n==0);
-    }
-
-    public Object[] getDatos() {
-        return datos;
-    }
-
-    public void setDatos(Object[] datos) {
-        this.datos = datos;
+    
+    public boolean estaVacia(){
+         return (n==0);
     }
 
     public int getFrente() {
         return frente;
     }
 
-    public void setFrente(int frente) {
-        this.frente = frente;
-    }
-
     public int getFin() {
         return fin;
     }
-
-    public void setFin(int fin) {
-        this.fin = fin;
-    }
-    public int getNumeroElementos() {
-    return n; // Número de elementos actualmente en la cola
-}
 
     public int getN() {
         return n;
