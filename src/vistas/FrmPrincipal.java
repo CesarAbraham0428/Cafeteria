@@ -22,7 +22,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
      * Creates new form FrmPrincipal
      */
     public FrmPrincipal() {
-        initComponents(); 
+        initComponents();
     }
 
     /**
@@ -55,93 +55,93 @@ public class FrmPrincipal extends javax.swing.JFrame {
         txtMesa = new javax.swing.JTextField();
         btnOrdenar = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
-        chk3 = new javax.swing.JCheckBox();
-        SpinnerSandwich = new javax.swing.JSpinner();
-        chk4 = new javax.swing.JCheckBox();
-        SpinnerCroissant = new javax.swing.JSpinner();
+        chkbPlatillo3 = new javax.swing.JCheckBox();
+        spinPlatillo3 = new javax.swing.JSpinner();
+        chkbPlatillo4 = new javax.swing.JCheckBox();
+        spinPlatillo4 = new javax.swing.JSpinner();
         btnAgregarPlatillo = new javax.swing.JButton();
-        jCheckBox49 = new javax.swing.JCheckBox();
-        SpinnerBagel = new javax.swing.JSpinner();
-        jCheckBox50 = new javax.swing.JCheckBox();
-        SpinnerEmpanadas = new javax.swing.JSpinner();
-        jCheckBox51 = new javax.swing.JCheckBox();
-        SpinnerBurrito = new javax.swing.JSpinner();
-        jCheckBox52 = new javax.swing.JCheckBox();
-        jCheckBox53 = new javax.swing.JCheckBox();
-        SpinnerTacos = new javax.swing.JSpinner();
-        jCheckBox54 = new javax.swing.JCheckBox();
-        SpinnerSopa = new javax.swing.JSpinner();
-        SpinnerPizza = new javax.swing.JSpinner();
+        chkbPlatillo5 = new javax.swing.JCheckBox();
+        spinPlatillo5 = new javax.swing.JSpinner();
+        chkbPlatillo6 = new javax.swing.JCheckBox();
+        spinPlatillo6 = new javax.swing.JSpinner();
+        chkbPlatillo7 = new javax.swing.JCheckBox();
+        spinPlatillo7 = new javax.swing.JSpinner();
+        chkbPlatillo8 = new javax.swing.JCheckBox();
+        chkbPlatillo9 = new javax.swing.JCheckBox();
+        spinPlatillo9 = new javax.swing.JSpinner();
+        chkbPlatillo10 = new javax.swing.JCheckBox();
+        spinPlatillo10 = new javax.swing.JSpinner();
+        spinPlatillo8 = new javax.swing.JSpinner();
         chkbPlatillo1 = new javax.swing.JCheckBox();
         spinPlatillo1 = new javax.swing.JSpinner();
         chkbPlatillo2 = new javax.swing.JCheckBox();
         spinPlatillo2 = new javax.swing.JSpinner();
         jPanel7 = new javax.swing.JPanel();
-        jCheckBox7 = new javax.swing.JCheckBox();
-        SpinnerJugo = new javax.swing.JSpinner();
-        jCheckBox8 = new javax.swing.JCheckBox();
-        SpinnerSmoothie = new javax.swing.JSpinner();
+        chkbPlatillo13 = new javax.swing.JCheckBox();
+        spinPlatillo13 = new javax.swing.JSpinner();
+        chkbPlatillo14 = new javax.swing.JCheckBox();
+        spinPlatillo14 = new javax.swing.JSpinner();
         btnAgregarBebida = new javax.swing.JButton();
-        jCheckBox65 = new javax.swing.JCheckBox();
-        SpinnerLatte = new javax.swing.JSpinner();
-        jCheckBox66 = new javax.swing.JCheckBox();
-        SpinnerCapuchino = new javax.swing.JSpinner();
-        jCheckBox67 = new javax.swing.JCheckBox();
-        SpinnerLimonada = new javax.swing.JSpinner();
-        jCheckBox68 = new javax.swing.JCheckBox();
-        jCheckBox69 = new javax.swing.JCheckBox();
-        SpinnerAgua = new javax.swing.JSpinner();
-        jCheckBox70 = new javax.swing.JCheckBox();
-        SpinnerFanta = new javax.swing.JSpinner();
-        SpinnerSprint = new javax.swing.JSpinner();
-        jCheckBox71 = new javax.swing.JCheckBox();
-        SpinnerCafe = new javax.swing.JSpinner();
-        jCheckBox72 = new javax.swing.JCheckBox();
-        SpinnerTe = new javax.swing.JSpinner();
+        chkbPlatillo15 = new javax.swing.JCheckBox();
+        spinPlatillo15 = new javax.swing.JSpinner();
+        chkbPlatillo16 = new javax.swing.JCheckBox();
+        spinPlatillo16 = new javax.swing.JSpinner();
+        chkbPlatillo17 = new javax.swing.JCheckBox();
+        spinPlatillo17 = new javax.swing.JSpinner();
+        chkbPlatillo18 = new javax.swing.JCheckBox();
+        chkbPlatillo19 = new javax.swing.JCheckBox();
+        spinPlatillo19 = new javax.swing.JSpinner();
+        chkbPlatillo20 = new javax.swing.JCheckBox();
+        spinPlatillo20 = new javax.swing.JSpinner();
+        spinPlatillo18 = new javax.swing.JSpinner();
+        chkbPlatillo11 = new javax.swing.JCheckBox();
+        spinPlatillo11 = new javax.swing.JSpinner();
+        chkbPlatillo12 = new javax.swing.JCheckBox();
+        spinPlatillo12 = new javax.swing.JSpinner();
         jPanel8 = new javax.swing.JPanel();
-        jCheckBox9 = new javax.swing.JCheckBox();
-        SpinnerTarta = new javax.swing.JSpinner();
-        jCheckBox10 = new javax.swing.JCheckBox();
-        SpinnerBrownie = new javax.swing.JSpinner();
+        chkbPlatillo23 = new javax.swing.JCheckBox();
+        spinPlatillo23 = new javax.swing.JSpinner();
+        chkbPlatillo24 = new javax.swing.JCheckBox();
+        spinPlatillo24 = new javax.swing.JSpinner();
         btnAgregarPostre = new javax.swing.JButton();
-        jCheckBox73 = new javax.swing.JCheckBox();
-        SpinnerHelado = new javax.swing.JSpinner();
-        jCheckBox74 = new javax.swing.JCheckBox();
-        SpinnerPudin = new javax.swing.JSpinner();
-        jCheckBox75 = new javax.swing.JCheckBox();
-        SpinnerGelatina = new javax.swing.JSpinner();
-        jCheckBox76 = new javax.swing.JCheckBox();
-        jCheckBox77 = new javax.swing.JCheckBox();
-        SpinnerCarlota = new javax.swing.JSpinner();
-        jCheckBox78 = new javax.swing.JCheckBox();
-        SpinnerPay = new javax.swing.JSpinner();
-        SpinnerHotCake = new javax.swing.JSpinner();
-        jCheckBox79 = new javax.swing.JCheckBox();
-        SpinnerPastel = new javax.swing.JSpinner();
-        jCheckBox80 = new javax.swing.JCheckBox();
-        SpinnerFlan = new javax.swing.JSpinner();
+        chkbPlatillo25 = new javax.swing.JCheckBox();
+        spinPlatillo25 = new javax.swing.JSpinner();
+        chkbPlatillo26 = new javax.swing.JCheckBox();
+        spinPlatillo26 = new javax.swing.JSpinner();
+        chkbPlatillo27 = new javax.swing.JCheckBox();
+        spinPlatillo27 = new javax.swing.JSpinner();
+        chkbPlatillo28 = new javax.swing.JCheckBox();
+        chkbPlatillo29 = new javax.swing.JCheckBox();
+        spinPlatillo29 = new javax.swing.JSpinner();
+        chkbPlatillo30 = new javax.swing.JCheckBox();
+        spinPlatillo30 = new javax.swing.JSpinner();
+        spinPlatillo28 = new javax.swing.JSpinner();
+        chkbPlatillo21 = new javax.swing.JCheckBox();
+        spinPlatillo21 = new javax.swing.JSpinner();
+        chkbPlatillo22 = new javax.swing.JCheckBox();
+        spinPlatillo22 = new javax.swing.JSpinner();
         jPanel9 = new javax.swing.JPanel();
-        jCheckBox11 = new javax.swing.JCheckBox();
-        SpinnerNueces = new javax.swing.JSpinner();
-        jCheckBox12 = new javax.swing.JCheckBox();
-        SpinnerPretzels = new javax.swing.JSpinner();
+        chkbPlatillo33 = new javax.swing.JCheckBox();
+        spinPlatillo33 = new javax.swing.JSpinner();
+        chkbPlatillo34 = new javax.swing.JCheckBox();
+        spinPlatillo34 = new javax.swing.JSpinner();
         btnAgregarSnack = new javax.swing.JButton();
-        jCheckBox81 = new javax.swing.JCheckBox();
-        SpinnerTakis = new javax.swing.JSpinner();
-        jCheckBox82 = new javax.swing.JCheckBox();
-        SpinnerChips = new javax.swing.JSpinner();
-        jCheckBox83 = new javax.swing.JCheckBox();
-        SpinnerBarritas = new javax.swing.JSpinner();
-        jCheckBox84 = new javax.swing.JCheckBox();
-        jCheckBox85 = new javax.swing.JCheckBox();
-        SpinnerBolis = new javax.swing.JSpinner();
-        jCheckBox86 = new javax.swing.JCheckBox();
-        SpinnerRunners = new javax.swing.JSpinner();
-        SpinnerYogurt = new javax.swing.JSpinner();
-        jCheckBox87 = new javax.swing.JCheckBox();
-        SpinnerGalletas = new javax.swing.JSpinner();
-        jCheckBox88 = new javax.swing.JCheckBox();
-        SpinnerDonas = new javax.swing.JSpinner();
+        chkbPlatillo35 = new javax.swing.JCheckBox();
+        spinPlatillo35 = new javax.swing.JSpinner();
+        chkbPlatillo36 = new javax.swing.JCheckBox();
+        spinPlatillo36 = new javax.swing.JSpinner();
+        chkbPlatillo37 = new javax.swing.JCheckBox();
+        spinPlatillo37 = new javax.swing.JSpinner();
+        chkbPlatillo38 = new javax.swing.JCheckBox();
+        chkbPlatillo39 = new javax.swing.JCheckBox();
+        spinPlatillo39 = new javax.swing.JSpinner();
+        chkbPlatillo40 = new javax.swing.JCheckBox();
+        spinPlatillo40 = new javax.swing.JSpinner();
+        spinPlatillo38 = new javax.swing.JSpinner();
+        chkbPlatillo31 = new javax.swing.JCheckBox();
+        spinPlatillo31 = new javax.swing.JSpinner();
+        chkbPlatillo32 = new javax.swing.JCheckBox();
+        spinPlatillo32 = new javax.swing.JSpinner();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -287,17 +287,17 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jPanel5.setBackground(new java.awt.Color(204, 255, 204));
         jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Platillos", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 24))); // NOI18N
 
-        chk3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        chk3.setText("Sándwich ");
+        chkbPlatillo3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo3.setText("Sándwich ");
 
-        SpinnerSandwich.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerSandwich.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo3.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        chk4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        chk4.setText("Croissant");
+        chkbPlatillo4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo4.setText("Croissant");
 
-        SpinnerCroissant.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerCroissant.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo4.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
         btnAgregarPlatillo.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btnAgregarPlatillo.setText("Agregar");
@@ -307,41 +307,41 @@ public class FrmPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jCheckBox49.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox49.setText("Bagel ");
+        chkbPlatillo5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo5.setText("Bagel ");
 
-        SpinnerBagel.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerBagel.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo5.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox50.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox50.setText("Empanadas ");
+        chkbPlatillo6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo6.setText("Empanadas ");
 
-        SpinnerEmpanadas.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerEmpanadas.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo6.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox51.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox51.setText("Burrito");
+        chkbPlatillo7.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo7.setText("Burrito");
 
-        SpinnerBurrito.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerBurrito.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo7.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo7.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox52.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox52.setText("Pizza");
+        chkbPlatillo8.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo8.setText("Pizza");
 
-        jCheckBox53.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox53.setText("Tacos");
+        chkbPlatillo9.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo9.setText("Tacos");
 
-        SpinnerTacos.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerTacos.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo9.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo9.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox54.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox54.setText("Sopa");
+        chkbPlatillo10.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo10.setText("Sopa");
 
-        SpinnerSopa.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerSopa.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo10.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo10.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        SpinnerPizza.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerPizza.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo8.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo8.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
         chkbPlatillo1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         chkbPlatillo1.setText("Enchiladas");
@@ -383,43 +383,43 @@ public class FrmPrincipal extends javax.swing.JFrame {
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel5Layout.createSequentialGroup()
                                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jCheckBox53, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jCheckBox54, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addComponent(chkbPlatillo9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(chkbPlatillo10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addGap(15, 15, 15)
                                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(SpinnerSopa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(SpinnerTacos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(spinPlatillo10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(spinPlatillo9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(jPanel5Layout.createSequentialGroup()
                                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(jCheckBox52, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jCheckBox51, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jCheckBox50, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addComponent(chkbPlatillo8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(chkbPlatillo7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(chkbPlatillo6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel5Layout.createSequentialGroup()
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(SpinnerEmpanadas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(SpinnerBagel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                            .addComponent(spinPlatillo6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(spinPlatillo5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                     .addGroup(jPanel5Layout.createSequentialGroup()
                                         .addGap(15, 15, 15)
                                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addGroup(jPanel5Layout.createSequentialGroup()
-                                                .addComponent(SpinnerBurrito, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(spinPlatillo7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addGap(0, 0, Short.MAX_VALUE))
-                                            .addComponent(SpinnerPizza, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
+                                            .addComponent(spinPlatillo8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(chk4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(chk3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(chkbPlatillo4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(chkbPlatillo3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(15, 15, 15)
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(SpinnerCroissant, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(SpinnerSandwich, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(spinPlatillo4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(spinPlatillo3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap())
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jCheckBox49, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(chkbPlatillo5, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
@@ -434,36 +434,36 @@ public class FrmPrincipal extends javax.swing.JFrame {
                     .addComponent(chkbPlatillo2))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(chk3)
-                    .addComponent(SpinnerSandwich, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(chkbPlatillo3)
+                    .addComponent(spinPlatillo3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerCroissant, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(chk4))
+                    .addComponent(spinPlatillo4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo4))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jCheckBox49)
-                    .addComponent(SpinnerBagel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(chkbPlatillo5)
+                    .addComponent(spinPlatillo5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerEmpanadas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox50))
+                    .addComponent(spinPlatillo6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo6))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jCheckBox51)
-                    .addComponent(SpinnerBurrito, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(chkbPlatillo7)
+                    .addComponent(spinPlatillo7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerPizza, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox52))
+                    .addComponent(spinPlatillo8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo8))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jCheckBox53)
-                    .addComponent(SpinnerTacos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(chkbPlatillo9)
+                    .addComponent(spinPlatillo9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerSopa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox54))
+                    .addComponent(spinPlatillo10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo10))
                 .addGap(10, 10, 10)
                 .addComponent(btnAgregarPlatillo))
         );
@@ -471,17 +471,17 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jPanel7.setBackground(new java.awt.Color(204, 255, 204));
         jPanel7.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Bebidas", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 24))); // NOI18N
 
-        jCheckBox7.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox7.setText("Jugo");
+        chkbPlatillo13.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo13.setText("Jugo");
 
-        SpinnerJugo.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerJugo.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo13.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo13.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox8.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox8.setText("Smoothie");
+        chkbPlatillo14.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo14.setText("Smoothie");
 
-        SpinnerSmoothie.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerSmoothie.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo14.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo14.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
         btnAgregarBebida.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btnAgregarBebida.setText("Agregar");
@@ -491,58 +491,63 @@ public class FrmPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jCheckBox65.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox65.setText("Latte");
+        chkbPlatillo15.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo15.setText("Latte");
 
-        SpinnerLatte.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerLatte.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo15.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo15.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox66.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox66.setText("Capuchino");
+        chkbPlatillo16.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo16.setText("Capuchino");
 
-        SpinnerCapuchino.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerCapuchino.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo16.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo16.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox67.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox67.setText("Limonada");
+        chkbPlatillo17.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo17.setText("Limonada");
 
-        SpinnerLimonada.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerLimonada.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo17.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo17.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox68.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox68.setText("Sprit");
+        chkbPlatillo18.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo18.setText("Sprit");
 
-        jCheckBox69.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox69.setText("Agua");
+        chkbPlatillo19.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo19.setText("Agua");
 
-        SpinnerAgua.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerAgua.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo19.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo19.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox70.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox70.setText("Fanta");
+        chkbPlatillo20.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo20.setText("Fanta");
 
-        SpinnerFanta.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerFanta.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo20.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo20.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        SpinnerSprint.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerSprint.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo18.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo18.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox71.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox71.setText("Café");
-
-        SpinnerCafe.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerCafe.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
-
-        jCheckBox72.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox72.setText("Té");
-        jCheckBox72.addActionListener(new java.awt.event.ActionListener() {
+        chkbPlatillo11.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo11.setText("Café");
+        chkbPlatillo11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox72ActionPerformed(evt);
+                chkbPlatillo11ActionPerformed(evt);
             }
         });
 
-        SpinnerTe.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerTe.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo11.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo11.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+
+        chkbPlatillo12.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo12.setText("Té");
+        chkbPlatillo12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                chkbPlatillo12ActionPerformed(evt);
+            }
+        });
+
+        spinPlatillo12.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo12.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -556,98 +561,98 @@ public class FrmPrincipal extends javax.swing.JFrame {
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jCheckBox72, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jCheckBox71, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(chkbPlatillo12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(chkbPlatillo11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(15, 15, 15)
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(SpinnerCafe, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(SpinnerTe, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(spinPlatillo11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(spinPlatillo12, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel7Layout.createSequentialGroup()
                                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jCheckBox69, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jCheckBox70, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addComponent(chkbPlatillo19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(chkbPlatillo20, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addGap(15, 15, 15)
                                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(SpinnerFanta, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(SpinnerAgua, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(spinPlatillo20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(spinPlatillo19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(jPanel7Layout.createSequentialGroup()
                                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(jCheckBox68, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jCheckBox67, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jCheckBox66, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addComponent(chkbPlatillo18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(chkbPlatillo17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(chkbPlatillo16, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel7Layout.createSequentialGroup()
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(SpinnerCapuchino, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(SpinnerLatte, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                            .addComponent(spinPlatillo16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(spinPlatillo15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                     .addGroup(jPanel7Layout.createSequentialGroup()
                                         .addGap(15, 15, 15)
                                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addGroup(jPanel7Layout.createSequentialGroup()
-                                                .addComponent(SpinnerLimonada, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(spinPlatillo17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addGap(0, 0, Short.MAX_VALUE))
-                                            .addComponent(SpinnerSprint, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
+                                            .addComponent(spinPlatillo18, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jCheckBox8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jCheckBox7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(chkbPlatillo14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(chkbPlatillo13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(15, 15, 15)
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(SpinnerSmoothie, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(SpinnerJugo, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(spinPlatillo14, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(spinPlatillo13, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap())
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jCheckBox65, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(chkbPlatillo15, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerCafe, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox71))
+                    .addComponent(spinPlatillo11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo11))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerTe, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox72))
+                    .addComponent(spinPlatillo12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo12))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jCheckBox7)
-                    .addComponent(SpinnerJugo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(chkbPlatillo13)
+                    .addComponent(spinPlatillo13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerSmoothie, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox8))
+                    .addComponent(spinPlatillo14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo14))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jCheckBox65)
-                    .addComponent(SpinnerLatte, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(chkbPlatillo15)
+                    .addComponent(spinPlatillo15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerCapuchino, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox66))
+                    .addComponent(spinPlatillo16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo16))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jCheckBox67)
-                    .addComponent(SpinnerLimonada, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(chkbPlatillo17)
+                    .addComponent(spinPlatillo17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerSprint, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox68))
+                    .addComponent(spinPlatillo18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo18))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jCheckBox69)
-                    .addComponent(SpinnerAgua, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(chkbPlatillo19)
+                    .addComponent(spinPlatillo19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerFanta, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox70))
+                    .addComponent(spinPlatillo20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo20))
                 .addGap(10, 10, 10)
                 .addComponent(btnAgregarBebida))
         );
@@ -655,17 +660,17 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jPanel8.setBackground(new java.awt.Color(204, 255, 204));
         jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Postres", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 24))); // NOI18N
 
-        jCheckBox9.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox9.setText("Tarta");
+        chkbPlatillo23.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo23.setText("Tarta");
 
-        SpinnerTarta.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerTarta.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo23.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo23.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox10.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox10.setText("Brownie");
+        chkbPlatillo24.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo24.setText("Brownie");
 
-        SpinnerBrownie.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerBrownie.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo24.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo24.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
         btnAgregarPostre.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btnAgregarPostre.setText("Agregar");
@@ -675,63 +680,63 @@ public class FrmPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jCheckBox73.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox73.setText("Helado");
+        chkbPlatillo25.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo25.setText("Helado");
 
-        SpinnerHelado.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerHelado.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo25.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo25.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox74.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox74.setText("Pudín");
+        chkbPlatillo26.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo26.setText("Pudín");
 
-        SpinnerPudin.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerPudin.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo26.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo26.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox75.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox75.setText("Gelatina");
+        chkbPlatillo27.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo27.setText("Gelatina");
 
-        SpinnerGelatina.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerGelatina.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo27.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo27.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox76.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox76.setText("Hot Cake");
-        jCheckBox76.addActionListener(new java.awt.event.ActionListener() {
+        chkbPlatillo28.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo28.setText("Hot Cake");
+        chkbPlatillo28.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox76ActionPerformed(evt);
+                chkbPlatillo28ActionPerformed(evt);
             }
         });
 
-        jCheckBox77.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox77.setText("Carlota");
+        chkbPlatillo29.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo29.setText("Carlota");
 
-        SpinnerCarlota.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerCarlota.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo29.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo29.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox78.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox78.setText("Pay");
+        chkbPlatillo30.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo30.setText("Pay");
 
-        SpinnerPay.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerPay.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo30.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo30.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        SpinnerHotCake.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerHotCake.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo28.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo28.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox79.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox79.setText("Pastel");
+        chkbPlatillo21.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo21.setText("Pastel");
 
-        SpinnerPastel.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerPastel.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo21.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo21.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox80.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox80.setText("Flan");
-        jCheckBox80.addActionListener(new java.awt.event.ActionListener() {
+        chkbPlatillo22.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo22.setText("Flan");
+        chkbPlatillo22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox80ActionPerformed(evt);
+                chkbPlatillo22ActionPerformed(evt);
             }
         });
 
-        SpinnerFlan.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerFlan.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo22.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo22.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -743,75 +748,75 @@ public class FrmPrincipal extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jCheckBox77, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox78, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox80, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox79, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox76, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox75, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox74, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox73, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBox9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(chkbPlatillo29, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(chkbPlatillo30, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(chkbPlatillo22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(chkbPlatillo21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(chkbPlatillo28, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(chkbPlatillo27, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(chkbPlatillo26, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(chkbPlatillo25, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(chkbPlatillo24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(chkbPlatillo23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(SpinnerPastel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(SpinnerFlan, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(spinPlatillo21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(spinPlatillo22, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(SpinnerPay, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(SpinnerCarlota, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(SpinnerPudin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(SpinnerHelado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(spinPlatillo30, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(spinPlatillo29, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(spinPlatillo26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(spinPlatillo25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(SpinnerGelatina, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(SpinnerHotCake, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(spinPlatillo27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(spinPlatillo28, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(SpinnerBrownie, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(SpinnerTarta, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addComponent(spinPlatillo24, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(spinPlatillo23, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerPastel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox79))
+                    .addComponent(spinPlatillo21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo21))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerFlan, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox80))
+                    .addComponent(spinPlatillo22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo22))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jCheckBox9)
-                    .addComponent(SpinnerTarta, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(chkbPlatillo23)
+                    .addComponent(spinPlatillo23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerBrownie, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox10))
+                    .addComponent(spinPlatillo24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo24))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jCheckBox73)
-                    .addComponent(SpinnerHelado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(chkbPlatillo25)
+                    .addComponent(spinPlatillo25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerPudin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox74))
+                    .addComponent(spinPlatillo26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo26))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jCheckBox75)
-                    .addComponent(SpinnerGelatina, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(chkbPlatillo27)
+                    .addComponent(spinPlatillo27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerHotCake, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox76))
+                    .addComponent(spinPlatillo28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo28))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jCheckBox77)
-                    .addComponent(SpinnerCarlota, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(chkbPlatillo29)
+                    .addComponent(spinPlatillo29, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerPay, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox78))
+                    .addComponent(spinPlatillo30, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo30))
                 .addGap(10, 10, 10)
                 .addComponent(btnAgregarPostre))
         );
@@ -819,17 +824,17 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jPanel9.setBackground(new java.awt.Color(204, 255, 204));
         jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Snacks", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 24))); // NOI18N
 
-        jCheckBox11.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox11.setText("Nueces");
+        chkbPlatillo33.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo33.setText("Nueces");
 
-        SpinnerNueces.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerNueces.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo33.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo33.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox12.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox12.setText("Pretzels");
+        chkbPlatillo34.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo34.setText("Pretzels");
 
-        SpinnerPretzels.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerPretzels.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo34.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo34.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
         btnAgregarSnack.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btnAgregarSnack.setText("Agregar");
@@ -839,58 +844,58 @@ public class FrmPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jCheckBox81.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox81.setText("Takis");
+        chkbPlatillo35.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo35.setText("Takis");
 
-        SpinnerTakis.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerTakis.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo35.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo35.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox82.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox82.setText("Chips");
+        chkbPlatillo36.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo36.setText("Chips");
 
-        SpinnerChips.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerChips.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo36.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo36.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox83.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox83.setText("Barritas");
+        chkbPlatillo37.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo37.setText("Barritas");
 
-        SpinnerBarritas.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerBarritas.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo37.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo37.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox84.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox84.setText("Yogur");
+        chkbPlatillo38.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo38.setText("Yogur");
 
-        jCheckBox85.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox85.setText("Bolis");
+        chkbPlatillo39.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo39.setText("Bolis");
 
-        SpinnerBolis.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerBolis.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo39.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo39.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox86.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox86.setText("Runners");
+        chkbPlatillo40.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo40.setText("Runners");
 
-        SpinnerRunners.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerRunners.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo40.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo40.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        SpinnerYogurt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerYogurt.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo38.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo38.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox87.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox87.setText("Galletas");
+        chkbPlatillo31.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo31.setText("Galletas");
 
-        SpinnerGalletas.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerGalletas.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo31.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo31.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
-        jCheckBox88.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jCheckBox88.setText("Donas");
-        jCheckBox88.addActionListener(new java.awt.event.ActionListener() {
+        chkbPlatillo32.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        chkbPlatillo32.setText("Donas");
+        chkbPlatillo32.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox88ActionPerformed(evt);
+                chkbPlatillo32ActionPerformed(evt);
             }
         });
 
-        SpinnerDonas.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        SpinnerDonas.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spinPlatillo32.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        spinPlatillo32.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -904,95 +909,95 @@ public class FrmPrincipal extends javax.swing.JFrame {
                     .addGroup(jPanel9Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jCheckBox88, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jCheckBox87, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(chkbPlatillo32, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(chkbPlatillo31, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(15, 15, 15)
                         .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(SpinnerGalletas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(SpinnerDonas, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(spinPlatillo31, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(spinPlatillo32, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel9Layout.createSequentialGroup()
                                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jCheckBox85, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jCheckBox86, javax.swing.GroupLayout.DEFAULT_SIZE, 90, Short.MAX_VALUE))
+                                    .addComponent(chkbPlatillo39, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(chkbPlatillo40, javax.swing.GroupLayout.DEFAULT_SIZE, 90, Short.MAX_VALUE))
                                 .addGap(15, 15, 15)
                                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(SpinnerRunners, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(SpinnerBolis, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(spinPlatillo40, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(spinPlatillo39, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(jPanel9Layout.createSequentialGroup()
                                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jCheckBox82, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jCheckBox83, javax.swing.GroupLayout.DEFAULT_SIZE, 87, Short.MAX_VALUE)
-                                    .addComponent(jCheckBox84, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addComponent(chkbPlatillo36, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(chkbPlatillo37, javax.swing.GroupLayout.DEFAULT_SIZE, 87, Short.MAX_VALUE)
+                                    .addComponent(chkbPlatillo38, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addGap(18, 18, 18)
                                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel9Layout.createSequentialGroup()
                                         .addGap(0, 0, Short.MAX_VALUE)
-                                        .addComponent(SpinnerYogurt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(spinPlatillo38, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(jPanel9Layout.createSequentialGroup()
-                                        .addComponent(SpinnerBarritas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(spinPlatillo37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(0, 0, Short.MAX_VALUE))))
                             .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addComponent(jCheckBox81, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(chkbPlatillo35, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addGap(15, 15, 15)
                                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(SpinnerChips, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(SpinnerTakis, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                    .addComponent(spinPlatillo36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(spinPlatillo35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                     .addGroup(jPanel9Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jCheckBox12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jCheckBox11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(chkbPlatillo34, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(chkbPlatillo33, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(15, 15, 15)
                         .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(SpinnerPretzels, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(SpinnerNueces, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(spinPlatillo34, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(spinPlatillo33, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap())
         );
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerGalletas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox87))
+                    .addComponent(spinPlatillo31, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo31))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerDonas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox88))
+                    .addComponent(spinPlatillo32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo32))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 6, Short.MAX_VALUE)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jCheckBox11)
-                    .addComponent(SpinnerNueces, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(chkbPlatillo33)
+                    .addComponent(spinPlatillo33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerPretzels, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox12))
+                    .addComponent(spinPlatillo34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo34))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jCheckBox81)
-                    .addComponent(SpinnerTakis, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(chkbPlatillo35)
+                    .addComponent(spinPlatillo35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerChips, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox82))
+                    .addComponent(spinPlatillo36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo36))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jCheckBox83)
-                    .addComponent(SpinnerBarritas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(chkbPlatillo37)
+                    .addComponent(spinPlatillo37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerYogurt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox84))
+                    .addComponent(spinPlatillo38, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo38))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jCheckBox85)
-                    .addComponent(SpinnerBolis, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(chkbPlatillo39)
+                    .addComponent(spinPlatillo39, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(8, 8, 8)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(SpinnerRunners, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox86))
+                    .addComponent(spinPlatillo40, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(chkbPlatillo40))
                 .addGap(10, 10, 10)
                 .addComponent(btnAgregarSnack))
         );
@@ -1094,18 +1099,18 @@ public class FrmPrincipal extends javax.swing.JFrame {
         pos = ordenes.getFin();
         ordenes.insertar(nueva);
         mostrarOrden(pos, nueva);
-        txtFinal.setText(""+ordenes.getFin());
-        txtFrente.setText(""+ordenes.getFrente());
-        
+        txtFinal.setText("" + ordenes.getFin());
+        txtFrente.setText("" + ordenes.getFrente());
+
     }//GEN-LAST:event_btnOrdenarActionPerformed
 
     private void mostrarOrden(int pos, Orden nueva) {
         String clave;
-        clave = nueva.getNum()+"-"+nueva.getMesa();
-        tblOrdenes.setValueAt(clave,0, pos);
+        clave = nueva.getNum() + "-" + nueva.getMesa();
+        tblOrdenes.setValueAt(clave, 0, pos);
     }
-    
-    private void limpiarOrden(int pos){
+
+    private void limpiarOrden(int pos) {
         tblOrdenes.setValueAt("", 0, pos);
     }
 
@@ -1116,6 +1121,124 @@ public class FrmPrincipal extends javax.swing.JFrame {
         if (chkbPlatillo1.isSelected()) {
             txtPedido.append(spinPlatillo1.getValue().toString() + " " + chkbPlatillo1.getText() + "\n");
         }
+        if (chkbPlatillo2.isSelected()) {
+            txtPedido.append(spinPlatillo2.getValue().toString() + " " + chkbPlatillo2.getText() + "\n");
+        }
+        if (chkbPlatillo3.isSelected()) {
+            txtPedido.append(spinPlatillo3.getValue().toString() + " " + chkbPlatillo3.getText() + "\n");
+        }
+        if (chkbPlatillo4.isSelected()) {
+            txtPedido.append(spinPlatillo4.getValue().toString() + " " + chkbPlatillo4.getText() + "\n");
+        }
+        if (chkbPlatillo5.isSelected()) {
+            txtPedido.append(spinPlatillo5.getValue().toString() + " " + chkbPlatillo5.getText() + "\n");
+        }
+        if (chkbPlatillo6.isSelected()) {
+            txtPedido.append(spinPlatillo6.getValue().toString() + " " + chkbPlatillo6.getText() + "\n");
+        }
+        if (chkbPlatillo7.isSelected()) {
+            txtPedido.append(spinPlatillo7.getValue().toString() + " " + chkbPlatillo7.getText() + "\n");
+        }
+        if (chkbPlatillo8.isSelected()) {
+            txtPedido.append(spinPlatillo8.getValue().toString() + " " + chkbPlatillo8.getText() + "\n");
+        }
+        if (chkbPlatillo9.isSelected()) {
+            txtPedido.append(spinPlatillo9.getValue().toString() + " " + chkbPlatillo9.getText() + "\n");
+        }
+        if (chkbPlatillo10.isSelected()) {
+            txtPedido.append(spinPlatillo10.getValue().toString() + " " + chkbPlatillo10.getText() + "\n");
+        }
+        if (chkbPlatillo11.isSelected()) {
+            txtPedido.append(spinPlatillo11.getValue().toString() + " " + chkbPlatillo11.getText() + "\n");
+        }
+        if (chkbPlatillo12.isSelected()) {
+            txtPedido.append(spinPlatillo12.getValue().toString() + " " + chkbPlatillo12.getText() + "\n");
+        }
+        if (chkbPlatillo13.isSelected()) {
+            txtPedido.append(spinPlatillo13.getValue().toString() + " " + chkbPlatillo13.getText() + "\n");
+        }
+        if (chkbPlatillo14.isSelected()) {
+            txtPedido.append(spinPlatillo14.getValue().toString() + " " + chkbPlatillo14.getText() + "\n");
+        }
+        if (chkbPlatillo15.isSelected()) {
+            txtPedido.append(spinPlatillo15.getValue().toString() + " " + chkbPlatillo15.getText() + "\n");
+        }
+        if (chkbPlatillo16.isSelected()) {
+            txtPedido.append(spinPlatillo16.getValue().toString() + " " + chkbPlatillo16.getText() + "\n");
+        }
+        if (chkbPlatillo17.isSelected()) {
+            txtPedido.append(spinPlatillo17.getValue().toString() + " " + chkbPlatillo17.getText() + "\n");
+        }
+        if (chkbPlatillo18.isSelected()) {
+            txtPedido.append(spinPlatillo18.getValue().toString() + " " + chkbPlatillo18.getText() + "\n");
+        }
+        if (chkbPlatillo19.isSelected()) {
+            txtPedido.append(spinPlatillo19.getValue().toString() + " " + chkbPlatillo19.getText() + "\n");
+        }
+        if (chkbPlatillo20.isSelected()) {
+            txtPedido.append(spinPlatillo20.getValue().toString() + " " + chkbPlatillo20.getText() + "\n");
+        }
+        if (chkbPlatillo21.isSelected()) {
+            txtPedido.append(spinPlatillo21.getValue().toString() + " " + chkbPlatillo21.getText() + "\n");
+        }
+        if (chkbPlatillo22.isSelected()) {
+            txtPedido.append(spinPlatillo22.getValue().toString() + " " + chkbPlatillo22.getText() + "\n");
+        }
+        if (chkbPlatillo23.isSelected()) {
+            txtPedido.append(spinPlatillo23.getValue().toString() + " " + chkbPlatillo23.getText() + "\n");
+        }
+        if (chkbPlatillo24.isSelected()) {
+            txtPedido.append(spinPlatillo24.getValue().toString() + " " + chkbPlatillo24.getText() + "\n");
+        }
+        if (chkbPlatillo25.isSelected()) {
+            txtPedido.append(spinPlatillo25.getValue().toString() + " " + chkbPlatillo25.getText() + "\n");
+        }
+        if (chkbPlatillo26.isSelected()) {
+            txtPedido.append(spinPlatillo26.getValue().toString() + " " + chkbPlatillo26.getText() + "\n");
+        }
+        if (chkbPlatillo27.isSelected()) {
+            txtPedido.append(spinPlatillo27.getValue().toString() + " " + chkbPlatillo27.getText() + "\n");
+        }
+        if (chkbPlatillo28.isSelected()) {
+            txtPedido.append(spinPlatillo28.getValue().toString() + " " + chkbPlatillo28.getText() + "\n");
+        }
+        if (chkbPlatillo29.isSelected()) {
+            txtPedido.append(spinPlatillo29.getValue().toString() + " " + chkbPlatillo29.getText() + "\n");
+        }
+        if (chkbPlatillo30.isSelected()) {
+            txtPedido.append(spinPlatillo30.getValue().toString() + " " + chkbPlatillo30.getText() + "\n");
+        }
+        if (chkbPlatillo31.isSelected()) {
+            txtPedido.append(spinPlatillo31.getValue().toString() + " " + chkbPlatillo31.getText() + "\n");
+        }
+        if (chkbPlatillo32.isSelected()) {
+            txtPedido.append(spinPlatillo32.getValue().toString() + " " + chkbPlatillo32.getText() + "\n");
+        }
+        if (chkbPlatillo33.isSelected()) {
+            txtPedido.append(spinPlatillo33.getValue().toString() + " " + chkbPlatillo33.getText() + "\n");
+        }
+        if (chkbPlatillo34.isSelected()) {
+            txtPedido.append(spinPlatillo34.getValue().toString() + " " + chkbPlatillo34.getText() + "\n");
+        }
+        if (chkbPlatillo35.isSelected()) {
+            txtPedido.append(spinPlatillo35.getValue().toString() + " " + chkbPlatillo35.getText() + "\n");
+        }
+        if (chkbPlatillo36.isSelected()) {
+            txtPedido.append(spinPlatillo36.getValue().toString() + " " + chkbPlatillo36.getText() + "\n");
+        }
+        if (chkbPlatillo37.isSelected()) {
+            txtPedido.append(spinPlatillo37.getValue().toString() + " " + chkbPlatillo37.getText() + "\n");
+        }
+        if (chkbPlatillo38.isSelected()) {
+            txtPedido.append(spinPlatillo38.getValue().toString() + " " + chkbPlatillo38.getText() + "\n");
+        }
+        if (chkbPlatillo39.isSelected()) {
+            txtPedido.append(spinPlatillo39.getValue().toString() + " " + chkbPlatillo39.getText() + "\n");
+        }
+        if (chkbPlatillo40.isSelected()) {
+            txtPedido.append(spinPlatillo40.getValue().toString() + " " + chkbPlatillo40.getText() + "\n");
+        }
+
         // Mostrar en el área de texto (panel izquierdo)
         txtPedido.append(platillosSeleccionados);
     }//GEN-LAST:event_btnAgregarPlatilloActionPerformed
@@ -1128,29 +1251,29 @@ public class FrmPrincipal extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btnAgregarBebidaActionPerformed
 
-    private void jCheckBox72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox72ActionPerformed
+    private void chkbPlatillo12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkbPlatillo12ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox72ActionPerformed
+    }//GEN-LAST:event_chkbPlatillo12ActionPerformed
 
     private void btnAgregarPostreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarPostreActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnAgregarPostreActionPerformed
 
-    private void jCheckBox80ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox80ActionPerformed
+    private void chkbPlatillo22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkbPlatillo22ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox80ActionPerformed
+    }//GEN-LAST:event_chkbPlatillo22ActionPerformed
 
     private void btnAgregarSnackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarSnackActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnAgregarSnackActionPerformed
 
-    private void jCheckBox88ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox88ActionPerformed
+    private void chkbPlatillo32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkbPlatillo32ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox88ActionPerformed
+    }//GEN-LAST:event_chkbPlatillo32ActionPerformed
 
-    private void jCheckBox76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox76ActionPerformed
+    private void chkbPlatillo28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkbPlatillo28ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox76ActionPerformed
+    }//GEN-LAST:event_chkbPlatillo28ActionPerformed
 
     private void btnAtenderOrdenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAtenderOrdenActionPerformed
 
@@ -1158,11 +1281,15 @@ public class FrmPrincipal extends javax.swing.JFrame {
         pos = ordenes.getFrente();
         orden = ordenes.eliminar();
         limpiarOrden(pos);
-        txtFrente.setText(""+ordenes.getFrente());
-        txtOrden.setText(""+orden.getNum());
-        txtMesa.setText(""+orden.getMesa());
+        txtFrente.setText("" + ordenes.getFrente());
+        txtOrden.setText("" + orden.getNum());
+        txtMesa.setText("" + orden.getMesa());
         txtPedido.setText(orden.getPedido());
     }//GEN-LAST:event_btnAtenderOrdenActionPerformed
+
+    private void chkbPlatillo11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkbPlatillo11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_chkbPlatillo11ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1200,44 +1327,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JSpinner SpinnerAgua;
-    private javax.swing.JSpinner SpinnerBagel;
-    private javax.swing.JSpinner SpinnerBarritas;
-    private javax.swing.JSpinner SpinnerBolis;
-    private javax.swing.JSpinner SpinnerBrownie;
-    private javax.swing.JSpinner SpinnerBurrito;
-    private javax.swing.JSpinner SpinnerCafe;
-    private javax.swing.JSpinner SpinnerCapuchino;
-    private javax.swing.JSpinner SpinnerCarlota;
-    private javax.swing.JSpinner SpinnerChips;
-    private javax.swing.JSpinner SpinnerCroissant;
-    private javax.swing.JSpinner SpinnerDonas;
-    private javax.swing.JSpinner SpinnerEmpanadas;
-    private javax.swing.JSpinner SpinnerFanta;
-    private javax.swing.JSpinner SpinnerFlan;
-    private javax.swing.JSpinner SpinnerGalletas;
-    private javax.swing.JSpinner SpinnerGelatina;
-    private javax.swing.JSpinner SpinnerHelado;
-    private javax.swing.JSpinner SpinnerHotCake;
-    private javax.swing.JSpinner SpinnerJugo;
-    private javax.swing.JSpinner SpinnerLatte;
-    private javax.swing.JSpinner SpinnerLimonada;
-    private javax.swing.JSpinner SpinnerNueces;
-    private javax.swing.JSpinner SpinnerPastel;
-    private javax.swing.JSpinner SpinnerPay;
-    private javax.swing.JSpinner SpinnerPizza;
-    private javax.swing.JSpinner SpinnerPretzels;
-    private javax.swing.JSpinner SpinnerPudin;
-    private javax.swing.JSpinner SpinnerRunners;
-    private javax.swing.JSpinner SpinnerSandwich;
-    private javax.swing.JSpinner SpinnerSmoothie;
-    private javax.swing.JSpinner SpinnerSopa;
-    private javax.swing.JSpinner SpinnerSprint;
-    private javax.swing.JSpinner SpinnerTacos;
-    private javax.swing.JSpinner SpinnerTakis;
-    private javax.swing.JSpinner SpinnerTarta;
-    private javax.swing.JSpinner SpinnerTe;
-    private javax.swing.JSpinner SpinnerYogurt;
     private javax.swing.JButton btnAgregarBebida;
     private javax.swing.JButton btnAgregarPlatillo;
     private javax.swing.JButton btnAgregarPostre;
@@ -1246,46 +1335,46 @@ public class FrmPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton btnCreditos;
     private javax.swing.JButton btnOrdenar;
     private javax.swing.JButton btnSalir;
-    private javax.swing.JCheckBox chk3;
-    private javax.swing.JCheckBox chk4;
     private javax.swing.JCheckBox chkbPlatillo1;
+    private javax.swing.JCheckBox chkbPlatillo10;
+    private javax.swing.JCheckBox chkbPlatillo11;
+    private javax.swing.JCheckBox chkbPlatillo12;
+    private javax.swing.JCheckBox chkbPlatillo13;
+    private javax.swing.JCheckBox chkbPlatillo14;
+    private javax.swing.JCheckBox chkbPlatillo15;
+    private javax.swing.JCheckBox chkbPlatillo16;
+    private javax.swing.JCheckBox chkbPlatillo17;
+    private javax.swing.JCheckBox chkbPlatillo18;
+    private javax.swing.JCheckBox chkbPlatillo19;
     private javax.swing.JCheckBox chkbPlatillo2;
-    private javax.swing.JCheckBox jCheckBox10;
-    private javax.swing.JCheckBox jCheckBox11;
-    private javax.swing.JCheckBox jCheckBox12;
-    private javax.swing.JCheckBox jCheckBox49;
-    private javax.swing.JCheckBox jCheckBox50;
-    private javax.swing.JCheckBox jCheckBox51;
-    private javax.swing.JCheckBox jCheckBox52;
-    private javax.swing.JCheckBox jCheckBox53;
-    private javax.swing.JCheckBox jCheckBox54;
-    private javax.swing.JCheckBox jCheckBox65;
-    private javax.swing.JCheckBox jCheckBox66;
-    private javax.swing.JCheckBox jCheckBox67;
-    private javax.swing.JCheckBox jCheckBox68;
-    private javax.swing.JCheckBox jCheckBox69;
-    private javax.swing.JCheckBox jCheckBox7;
-    private javax.swing.JCheckBox jCheckBox70;
-    private javax.swing.JCheckBox jCheckBox71;
-    private javax.swing.JCheckBox jCheckBox72;
-    private javax.swing.JCheckBox jCheckBox73;
-    private javax.swing.JCheckBox jCheckBox74;
-    private javax.swing.JCheckBox jCheckBox75;
-    private javax.swing.JCheckBox jCheckBox76;
-    private javax.swing.JCheckBox jCheckBox77;
-    private javax.swing.JCheckBox jCheckBox78;
-    private javax.swing.JCheckBox jCheckBox79;
-    private javax.swing.JCheckBox jCheckBox8;
-    private javax.swing.JCheckBox jCheckBox80;
-    private javax.swing.JCheckBox jCheckBox81;
-    private javax.swing.JCheckBox jCheckBox82;
-    private javax.swing.JCheckBox jCheckBox83;
-    private javax.swing.JCheckBox jCheckBox84;
-    private javax.swing.JCheckBox jCheckBox85;
-    private javax.swing.JCheckBox jCheckBox86;
-    private javax.swing.JCheckBox jCheckBox87;
-    private javax.swing.JCheckBox jCheckBox88;
-    private javax.swing.JCheckBox jCheckBox9;
+    private javax.swing.JCheckBox chkbPlatillo20;
+    private javax.swing.JCheckBox chkbPlatillo21;
+    private javax.swing.JCheckBox chkbPlatillo22;
+    private javax.swing.JCheckBox chkbPlatillo23;
+    private javax.swing.JCheckBox chkbPlatillo24;
+    private javax.swing.JCheckBox chkbPlatillo25;
+    private javax.swing.JCheckBox chkbPlatillo26;
+    private javax.swing.JCheckBox chkbPlatillo27;
+    private javax.swing.JCheckBox chkbPlatillo28;
+    private javax.swing.JCheckBox chkbPlatillo29;
+    private javax.swing.JCheckBox chkbPlatillo3;
+    private javax.swing.JCheckBox chkbPlatillo30;
+    private javax.swing.JCheckBox chkbPlatillo31;
+    private javax.swing.JCheckBox chkbPlatillo32;
+    private javax.swing.JCheckBox chkbPlatillo33;
+    private javax.swing.JCheckBox chkbPlatillo34;
+    private javax.swing.JCheckBox chkbPlatillo35;
+    private javax.swing.JCheckBox chkbPlatillo36;
+    private javax.swing.JCheckBox chkbPlatillo37;
+    private javax.swing.JCheckBox chkbPlatillo38;
+    private javax.swing.JCheckBox chkbPlatillo39;
+    private javax.swing.JCheckBox chkbPlatillo4;
+    private javax.swing.JCheckBox chkbPlatillo40;
+    private javax.swing.JCheckBox chkbPlatillo5;
+    private javax.swing.JCheckBox chkbPlatillo6;
+    private javax.swing.JCheckBox chkbPlatillo7;
+    private javax.swing.JCheckBox chkbPlatillo8;
+    private javax.swing.JCheckBox chkbPlatillo9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -1301,7 +1390,45 @@ public class FrmPrincipal extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JSpinner spinPlatillo1;
+    private javax.swing.JSpinner spinPlatillo10;
+    private javax.swing.JSpinner spinPlatillo11;
+    private javax.swing.JSpinner spinPlatillo12;
+    private javax.swing.JSpinner spinPlatillo13;
+    private javax.swing.JSpinner spinPlatillo14;
+    private javax.swing.JSpinner spinPlatillo15;
+    private javax.swing.JSpinner spinPlatillo16;
+    private javax.swing.JSpinner spinPlatillo17;
+    private javax.swing.JSpinner spinPlatillo18;
+    private javax.swing.JSpinner spinPlatillo19;
     private javax.swing.JSpinner spinPlatillo2;
+    private javax.swing.JSpinner spinPlatillo20;
+    private javax.swing.JSpinner spinPlatillo21;
+    private javax.swing.JSpinner spinPlatillo22;
+    private javax.swing.JSpinner spinPlatillo23;
+    private javax.swing.JSpinner spinPlatillo24;
+    private javax.swing.JSpinner spinPlatillo25;
+    private javax.swing.JSpinner spinPlatillo26;
+    private javax.swing.JSpinner spinPlatillo27;
+    private javax.swing.JSpinner spinPlatillo28;
+    private javax.swing.JSpinner spinPlatillo29;
+    private javax.swing.JSpinner spinPlatillo3;
+    private javax.swing.JSpinner spinPlatillo30;
+    private javax.swing.JSpinner spinPlatillo31;
+    private javax.swing.JSpinner spinPlatillo32;
+    private javax.swing.JSpinner spinPlatillo33;
+    private javax.swing.JSpinner spinPlatillo34;
+    private javax.swing.JSpinner spinPlatillo35;
+    private javax.swing.JSpinner spinPlatillo36;
+    private javax.swing.JSpinner spinPlatillo37;
+    private javax.swing.JSpinner spinPlatillo38;
+    private javax.swing.JSpinner spinPlatillo39;
+    private javax.swing.JSpinner spinPlatillo4;
+    private javax.swing.JSpinner spinPlatillo40;
+    private javax.swing.JSpinner spinPlatillo5;
+    private javax.swing.JSpinner spinPlatillo6;
+    private javax.swing.JSpinner spinPlatillo7;
+    private javax.swing.JSpinner spinPlatillo8;
+    private javax.swing.JSpinner spinPlatillo9;
     private javax.swing.JTable tblOrdenes;
     private javax.swing.JTextField txtFinal;
     private javax.swing.JTextField txtFrente;
@@ -1309,6 +1436,5 @@ public class FrmPrincipal extends javax.swing.JFrame {
     private javax.swing.JTextField txtOrden;
     private javax.swing.JTextArea txtPedido;
     // End of variables declaration//GEN-END:variables
-
 
 }

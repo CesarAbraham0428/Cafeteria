@@ -421,37 +421,37 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jCheckBox53" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="jCheckBox54" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="chkbPlatillo9" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="chkbPlatillo10" alignment="0" max="32767" attributes="0"/>
                                       </Group>
                                       <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="SpinnerSopa" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="SpinnerTacos" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="spinPlatillo10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="spinPlatillo9" alignment="0" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                          <Component id="jCheckBox52" alignment="1" max="32767" attributes="0"/>
-                                          <Component id="jCheckBox51" alignment="1" max="32767" attributes="0"/>
-                                          <Component id="jCheckBox50" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="chkbPlatillo8" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="chkbPlatillo7" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="chkbPlatillo6" alignment="1" max="32767" attributes="0"/>
                                       </Group>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" alignment="0" attributes="0">
                                               <EmptySpace max="32767" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="SpinnerEmpanadas" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="SpinnerBagel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="spinPlatillo6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="spinPlatillo5" alignment="0" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                           <Group type="102" alignment="0" attributes="0">
                                               <EmptySpace min="15" pref="15" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Group type="102" alignment="0" attributes="0">
-                                                      <Component id="SpinnerBurrito" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="spinPlatillo7" min="-2" max="-2" attributes="0"/>
                                                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                                   </Group>
-                                                  <Component id="SpinnerPizza" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="spinPlatillo8" alignment="1" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                       </Group>
@@ -461,13 +461,13 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="chk4" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="chk3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="chkbPlatillo4" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="chkbPlatillo3" alignment="0" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="SpinnerCroissant" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="SpinnerSandwich" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="spinPlatillo4" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="spinPlatillo3" alignment="1" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -475,7 +475,7 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jCheckBox49" min="-2" pref="121" max="-2" attributes="0"/>
+                      <Component id="chkbPlatillo5" min="-2" pref="121" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -494,43 +494,43 @@
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="chk3" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="SpinnerSandwich" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo3" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerCroissant" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="chk4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo4" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jCheckBox49" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="SpinnerBagel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo5" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerEmpanadas" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox50" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo6" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jCheckBox51" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="SpinnerBurrito" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo7" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerPizza" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox52" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo8" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jCheckBox53" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="SpinnerTacos" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo9" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerSopa" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox54" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo10" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                       <Component id="btnAgregarPlatillo" min="-2" max="-2" attributes="0"/>
@@ -539,7 +539,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JCheckBox" name="chk3">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo3">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -547,7 +547,7 @@
                 <Property name="text" type="java.lang.String" value="S&#xe1;ndwich "/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerSandwich">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo3">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -557,7 +557,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="chk4">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo4">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -565,7 +565,7 @@
                 <Property name="text" type="java.lang.String" value="Croissant"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerCroissant">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo4">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -586,7 +586,7 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAgregarPlatilloActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox49">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo5">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -594,7 +594,7 @@
                 <Property name="text" type="java.lang.String" value="Bagel "/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerBagel">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo5">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -604,7 +604,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox50">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo6">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -612,7 +612,7 @@
                 <Property name="text" type="java.lang.String" value="Empanadas "/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerEmpanadas">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo6">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -622,7 +622,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox51">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo7">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -630,7 +630,7 @@
                 <Property name="text" type="java.lang.String" value="Burrito"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerBurrito">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo7">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -640,7 +640,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox52">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo8">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -648,7 +648,7 @@
                 <Property name="text" type="java.lang.String" value="Pizza"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox53">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo9">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -656,7 +656,7 @@
                 <Property name="text" type="java.lang.String" value="Tacos"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerTacos">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo9">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -666,7 +666,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox54">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo10">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -674,7 +674,7 @@
                 <Property name="text" type="java.lang.String" value="Sopa"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerSopa">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo10">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -684,7 +684,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerPizza">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo8">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -761,13 +761,13 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jCheckBox72" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jCheckBox71" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="chkbPlatillo12" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="chkbPlatillo11" alignment="0" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="SpinnerCafe" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="SpinnerTe" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="spinPlatillo11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="spinPlatillo12" alignment="1" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
@@ -775,37 +775,37 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jCheckBox69" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="jCheckBox70" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="chkbPlatillo19" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="chkbPlatillo20" alignment="0" max="32767" attributes="0"/>
                                       </Group>
                                       <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="SpinnerFanta" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="SpinnerAgua" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="spinPlatillo20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="spinPlatillo19" alignment="0" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                          <Component id="jCheckBox68" alignment="1" max="32767" attributes="0"/>
-                                          <Component id="jCheckBox67" alignment="1" max="32767" attributes="0"/>
-                                          <Component id="jCheckBox66" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="chkbPlatillo18" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="chkbPlatillo17" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="chkbPlatillo16" alignment="1" max="32767" attributes="0"/>
                                       </Group>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" alignment="0" attributes="0">
                                               <EmptySpace max="32767" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="SpinnerCapuchino" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="SpinnerLatte" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="spinPlatillo16" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="spinPlatillo15" alignment="0" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                           <Group type="102" alignment="0" attributes="0">
                                               <EmptySpace min="15" pref="15" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Group type="102" alignment="0" attributes="0">
-                                                      <Component id="SpinnerLimonada" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="spinPlatillo17" min="-2" max="-2" attributes="0"/>
                                                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                                   </Group>
-                                                  <Component id="SpinnerSprint" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="spinPlatillo18" alignment="1" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                       </Group>
@@ -815,13 +815,13 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jCheckBox8" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jCheckBox7" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="chkbPlatillo14" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="chkbPlatillo13" alignment="0" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="SpinnerSmoothie" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="SpinnerJugo" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="spinPlatillo14" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="spinPlatillo13" alignment="1" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -829,7 +829,7 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jCheckBox65" min="-2" pref="121" max="-2" attributes="0"/>
+                      <Component id="chkbPlatillo15" min="-2" pref="121" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -838,53 +838,53 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerCafe" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox71" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo11" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerTe" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox72" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo12" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jCheckBox7" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="SpinnerJugo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo13" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo13" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerSmoothie" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo14" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo14" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jCheckBox65" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="SpinnerLatte" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo15" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo15" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerCapuchino" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox66" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo16" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo16" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jCheckBox67" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="SpinnerLimonada" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo17" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo17" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerSprint" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox68" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo18" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo18" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jCheckBox69" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="SpinnerAgua" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo19" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo19" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerFanta" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox70" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo20" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo20" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                       <Component id="btnAgregarBebida" min="-2" max="-2" attributes="0"/>
@@ -893,7 +893,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox7">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo13">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -901,7 +901,7 @@
                 <Property name="text" type="java.lang.String" value="Jugo"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerJugo">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo13">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -911,7 +911,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox8">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo14">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -919,7 +919,7 @@
                 <Property name="text" type="java.lang.String" value="Smoothie"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerSmoothie">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo14">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -940,7 +940,7 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAgregarBebidaActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox65">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo15">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -948,7 +948,7 @@
                 <Property name="text" type="java.lang.String" value="Latte"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerLatte">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo15">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -958,7 +958,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox66">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo16">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -966,7 +966,7 @@
                 <Property name="text" type="java.lang.String" value="Capuchino"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerCapuchino">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo16">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -976,7 +976,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox67">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo17">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -984,7 +984,7 @@
                 <Property name="text" type="java.lang.String" value="Limonada"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerLimonada">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo17">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -994,7 +994,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox68">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo18">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1002,7 +1002,7 @@
                 <Property name="text" type="java.lang.String" value="Sprit"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox69">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo19">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1010,7 +1010,7 @@
                 <Property name="text" type="java.lang.String" value="Agua"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerAgua">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo19">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1020,7 +1020,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox70">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo20">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1028,7 +1028,7 @@
                 <Property name="text" type="java.lang.String" value="Fanta"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerFanta">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo20">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1038,7 +1038,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerSprint">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo18">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1048,15 +1048,18 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox71">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo11">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Caf&#xe9;"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chkbPlatillo11ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerCafe">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo11">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1066,7 +1069,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox72">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo12">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1074,10 +1077,10 @@
                 <Property name="text" type="java.lang.String" value="T&#xe9;"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox72ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chkbPlatillo12ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerTe">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo12">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1113,36 +1116,36 @@
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jCheckBox77" max="32767" attributes="0"/>
-                          <Component id="jCheckBox78" max="32767" attributes="0"/>
-                          <Component id="jCheckBox80" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jCheckBox79" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jCheckBox76" alignment="1" max="32767" attributes="0"/>
-                          <Component id="jCheckBox75" alignment="1" max="32767" attributes="0"/>
-                          <Component id="jCheckBox74" alignment="1" max="32767" attributes="0"/>
-                          <Component id="jCheckBox73" alignment="1" max="32767" attributes="0"/>
-                          <Component id="jCheckBox10" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jCheckBox9" alignment="0" max="32767" attributes="0"/>
+                          <Component id="chkbPlatillo29" max="32767" attributes="0"/>
+                          <Component id="chkbPlatillo30" max="32767" attributes="0"/>
+                          <Component id="chkbPlatillo22" alignment="0" max="32767" attributes="0"/>
+                          <Component id="chkbPlatillo21" alignment="0" max="32767" attributes="0"/>
+                          <Component id="chkbPlatillo28" alignment="1" max="32767" attributes="0"/>
+                          <Component id="chkbPlatillo27" alignment="1" max="32767" attributes="0"/>
+                          <Component id="chkbPlatillo26" alignment="1" max="32767" attributes="0"/>
+                          <Component id="chkbPlatillo25" alignment="1" max="32767" attributes="0"/>
+                          <Component id="chkbPlatillo24" alignment="0" max="32767" attributes="0"/>
+                          <Component id="chkbPlatillo23" alignment="0" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="103" alignment="0" groupAlignment="0" attributes="0">
-                              <Component id="SpinnerPastel" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="SpinnerFlan" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="spinPlatillo21" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="spinPlatillo22" alignment="1" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                              <Component id="SpinnerPay" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="SpinnerCarlota" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="SpinnerPudin" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="SpinnerHelado" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="spinPlatillo30" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="spinPlatillo29" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="spinPlatillo26" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="spinPlatillo25" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Group type="103" alignment="0" groupAlignment="0" attributes="0">
-                                  <Component id="SpinnerGelatina" min="-2" max="-2" attributes="0"/>
-                                  <Component id="SpinnerHotCake" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="spinPlatillo27" min="-2" max="-2" attributes="0"/>
+                                  <Component id="spinPlatillo28" alignment="1" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="103" alignment="0" groupAlignment="0" attributes="0">
-                              <Component id="SpinnerBrownie" alignment="1" min="-2" max="-2" attributes="0"/>
-                              <Component id="SpinnerTarta" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="spinPlatillo24" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="spinPlatillo23" alignment="1" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -1152,53 +1155,53 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerPastel" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox79" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo21" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo21" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerFlan" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox80" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo22" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo22" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jCheckBox9" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="SpinnerTarta" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo23" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo23" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerBrownie" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo24" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo24" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jCheckBox73" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="SpinnerHelado" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo25" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo25" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerPudin" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox74" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo26" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo26" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jCheckBox75" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="SpinnerGelatina" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo27" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo27" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerHotCake" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox76" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo28" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo28" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jCheckBox77" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="SpinnerCarlota" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo29" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo29" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerPay" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox78" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo30" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo30" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                       <Component id="btnAgregarPostre" min="-2" max="-2" attributes="0"/>
@@ -1207,7 +1210,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox9">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo23">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1215,7 +1218,7 @@
                 <Property name="text" type="java.lang.String" value="Tarta"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerTarta">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo23">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1225,7 +1228,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox10">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo24">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1233,7 +1236,7 @@
                 <Property name="text" type="java.lang.String" value="Brownie"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerBrownie">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo24">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1254,7 +1257,7 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAgregarPostreActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox73">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo25">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1262,7 +1265,7 @@
                 <Property name="text" type="java.lang.String" value="Helado"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerHelado">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo25">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1272,7 +1275,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox74">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo26">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1280,7 +1283,7 @@
                 <Property name="text" type="java.lang.String" value="Pud&#xed;n"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerPudin">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo26">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1290,7 +1293,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox75">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo27">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1298,7 +1301,7 @@
                 <Property name="text" type="java.lang.String" value="Gelatina"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerGelatina">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo27">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1308,7 +1311,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox76">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo28">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1316,10 +1319,10 @@
                 <Property name="text" type="java.lang.String" value="Hot Cake"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox76ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chkbPlatillo28ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox77">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo29">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1327,7 +1330,7 @@
                 <Property name="text" type="java.lang.String" value="Carlota"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerCarlota">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo29">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1337,7 +1340,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox78">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo30">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1345,7 +1348,7 @@
                 <Property name="text" type="java.lang.String" value="Pay"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerPay">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo30">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1355,7 +1358,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerHotCake">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo28">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1365,7 +1368,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox79">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo21">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1373,7 +1376,7 @@
                 <Property name="text" type="java.lang.String" value="Pastel"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerPastel">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo21">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1383,7 +1386,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox80">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo22">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1391,10 +1394,10 @@
                 <Property name="text" type="java.lang.String" value="Flan"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox80ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chkbPlatillo22ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerFlan">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo22">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1432,13 +1435,13 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jCheckBox88" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jCheckBox87" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="chkbPlatillo32" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="chkbPlatillo31" alignment="0" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="SpinnerGalletas" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="SpinnerDonas" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="spinPlatillo31" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="spinPlatillo32" alignment="1" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
@@ -1446,39 +1449,39 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jCheckBox85" max="32767" attributes="0"/>
-                                          <Component id="jCheckBox86" pref="90" max="32767" attributes="0"/>
+                                          <Component id="chkbPlatillo39" max="32767" attributes="0"/>
+                                          <Component id="chkbPlatillo40" pref="90" max="32767" attributes="0"/>
                                       </Group>
                                       <EmptySpace min="15" pref="15" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="SpinnerRunners" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="SpinnerBolis" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="spinPlatillo40" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="spinPlatillo39" alignment="0" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="jCheckBox82" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="jCheckBox83" alignment="0" pref="87" max="32767" attributes="0"/>
-                                          <Component id="jCheckBox84" max="32767" attributes="0"/>
+                                          <Component id="chkbPlatillo36" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="chkbPlatillo37" alignment="0" pref="87" max="32767" attributes="0"/>
+                                          <Component id="chkbPlatillo38" max="32767" attributes="0"/>
                                       </Group>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" attributes="0">
                                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                              <Component id="SpinnerYogurt" min="-2" max="-2" attributes="0"/>
+                                              <Component id="spinPlatillo38" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                           <Group type="102" alignment="0" attributes="0">
-                                              <Component id="SpinnerBarritas" min="-2" max="-2" attributes="0"/>
+                                              <Component id="spinPlatillo37" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jCheckBox81" max="32767" attributes="0"/>
+                                      <Component id="chkbPlatillo35" max="32767" attributes="0"/>
                                       <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="SpinnerChips" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="SpinnerTakis" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="spinPlatillo36" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="spinPlatillo35" alignment="0" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
@@ -1486,13 +1489,13 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jCheckBox12" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jCheckBox11" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="chkbPlatillo34" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="chkbPlatillo33" alignment="0" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="SpinnerPretzels" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="SpinnerNueces" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="spinPlatillo34" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="spinPlatillo33" alignment="1" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -1504,53 +1507,53 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerGalletas" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox87" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo31" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo31" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerDonas" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox88" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo32" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo32" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="6" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jCheckBox11" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="SpinnerNueces" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo33" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo33" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerPretzels" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo34" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo34" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jCheckBox81" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="SpinnerTakis" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo35" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo35" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerChips" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox82" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo36" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo36" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jCheckBox83" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="SpinnerBarritas" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo37" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo37" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerYogurt" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox84" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo38" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo38" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jCheckBox85" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="SpinnerBolis" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo39" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo39" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SpinnerRunners" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCheckBox86" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinPlatillo40" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkbPlatillo40" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                       <Component id="btnAgregarSnack" min="-2" max="-2" attributes="0"/>
@@ -1559,7 +1562,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox11">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo33">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1567,7 +1570,7 @@
                 <Property name="text" type="java.lang.String" value="Nueces"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerNueces">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo33">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1577,7 +1580,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox12">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo34">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1585,7 +1588,7 @@
                 <Property name="text" type="java.lang.String" value="Pretzels"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerPretzels">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo34">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1606,7 +1609,7 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAgregarSnackActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox81">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo35">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1614,7 +1617,7 @@
                 <Property name="text" type="java.lang.String" value="Takis"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerTakis">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo35">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1624,7 +1627,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox82">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo36">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1632,7 +1635,7 @@
                 <Property name="text" type="java.lang.String" value="Chips"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerChips">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo36">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1642,7 +1645,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox83">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo37">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1650,7 +1653,7 @@
                 <Property name="text" type="java.lang.String" value="Barritas"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerBarritas">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo37">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1660,7 +1663,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox84">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo38">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1668,7 +1671,7 @@
                 <Property name="text" type="java.lang.String" value="Yogur"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox85">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo39">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1676,7 +1679,7 @@
                 <Property name="text" type="java.lang.String" value="Bolis"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerBolis">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo39">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1686,7 +1689,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox86">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo40">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1694,7 +1697,7 @@
                 <Property name="text" type="java.lang.String" value="Runners"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerRunners">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo40">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1704,7 +1707,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerYogurt">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo38">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1714,7 +1717,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox87">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo31">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1722,7 +1725,7 @@
                 <Property name="text" type="java.lang.String" value="Galletas"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerGalletas">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo31">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1732,7 +1735,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox88">
+            <Component class="javax.swing.JCheckBox" name="chkbPlatillo32">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
@@ -1740,10 +1743,10 @@
                 <Property name="text" type="java.lang.String" value="Donas"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox88ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chkbPlatillo32ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JSpinner" name="SpinnerDonas">
+            <Component class="javax.swing.JSpinner" name="spinPlatillo32">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
